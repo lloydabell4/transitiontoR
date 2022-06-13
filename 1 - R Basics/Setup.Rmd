@@ -21,23 +21,27 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### Ways to use R
 
-R is a programming language, but also a software environment (R Core Team, 2020). To start learning R, you first need to install some software programs (R and RStudio) on your computer or use a hosted R development platform that already has R and RStudio installed (RStudio.Cloud). For this class, we will use RStudio.Cloud because it reduces the challenges of local, individual installations of R and RStudio.
+R is a programming language, but also a software environment (R Core Team, 2020). To start learning R, you first need to install some software programs (R and RStudio) on your computer or use a hosted R development platform that already has R and RStudio installed (RStudio.Cloud). For this class, we will use RStudio Workbench because it reduces the challenges of local, individual installations of R and RStudio.
 
-We will talk about the advantage and disadvantages of using RStudio.Cloud later in this workshop but know that the University is currently supporting and paying for RStudio.Cloud for faculty teaching R. To request access, contact Fred Hagemeister in IS.
+We will talk about the advantage and disadvantages of using RStudio Workbench later in this workshop but know that the University is currently supporting and paying for RStudio Workbench.
 
-### RStudio.Cloud and R Projects
+### RStudio Workbench and R Projects
 
-Navigate to [RStudio.Cloud](RStudio.Cloud) and sign in with your University of Richmond email address. To learn more about how to use RStudio.Cloud check out the official RStudio.Cloud guide [here](https://rstudio.cloud/learn/guide).
+Navigate to [RStudio Workbench](http://spiderweb.richmond.edu:8787) and sign in with your University of Richmond netID and password.
 
-RStudio.Cloud is organized around two 'buckets': a workspace bucket (think entire course) and a project bucket (think specific lesson/class within the course). As participants in this workshop, you are already enrolled in my *Faculty Development Institute: Data Visualization with R* workspace in RStudio.Cloud.
+RStudio Workbench is organized around two 'buckets': a project bucket and a session bucket. Each time you start RStudio, you create a new session. A project contains folders and files associated with that project. We will be cloning a project I've created and shared via Github.
 
-Once you have successfully entered our workspace (*Faculty Development Institute: Data Viz with R*), notice that you have a number of projects available to you. We will start in the **"Getting Started"** project. Click Start (see image below) next to the Getting Started project to load the project.
+-   Click New Project from the Home Screen or, if already in a session, click File -\> New Project
 
-<center>
+-   Click Version Control
 
-![screenshot of RStudio.cloud workspace window](Images/workspace.png){#id .class width="50%" height="50%"}
+-   Click Git
 
-</center>
+Enter the information about my github repository into the boxes as seen below:
+
+-   Repository URL: [**https://github.com/lloydabell4/transitiontoR**](https://github.com/lloydabell4/transitiontoR){.uri}
+
+-   Project Directory Name: **TransitionToR**
 
 ### Resources
 
@@ -45,6 +49,8 @@ This workshop relies heavily on two primary sources.
 
 -   *R for Data Science* by Hadley Wickham and Garrett Frolemund which can be found at <https://r4ds.had.co.nz> (for free!)
 -   *Data Visualization: A Practical Introduction* by Kieran Healy which can be found at <https://socviz.co> (also for free! - see Menu button on top left)
+-   [RStudio.Cloud primers](https://rstudio.cloud/learn/primers) - These are fantastic, easy to use tutorials to supplement this workshop instruction.
+-   
 
 In addition to those books, if you are completely new to programming or simply want a good resource for learning R, I also highly recommend Garrett Frolemund's book *Hands-On Programming with R* [found here via the UR library](https://learning.oreilly.com/library/view/hands-on-programming-with/9781449359089/)
 
@@ -88,3 +94,5 @@ This is R's graphical user interface, but don't worry about it because you'll ty
     -   Like with R you'll have to select destination and start menu folders for RStudio. Put it wherever, but I'd recommend putting it in the same location as R so that RStudio will be able to easily "find" R on your machine. If you just go with the defaults you should be good.
 
 6.  Once RStudio is finished installing, find it and open it- you'll need it to install some packages.
+
+7.  

@@ -28,7 +28,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## The RStudio Environment
 
-Load RStudio Workbench in your favorite browser, open the "Getting Started" project, and you should see a window similar to that shown below.
+Load [RStudio Workbench](http://spiderweb.richmond.edu:8787) in your favorite browser, open the Transition to R project, and you should see a window similar to that shown below.
 
 <center>
 

@@ -1,0 +1,66 @@
+---
+title: "class_04_2021 - learning activity"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Load data and explore
+
+Explore the opiates dataset (found in socviz). What are the variables? Observations? Start thinking about what you might want to explore. 
+
+Considering sharing one of your groups projects with your group so you can work off a single RMD file. 
+
+```{r Setup }
+library(socviz)
+<<<<<<< HEAD
+str(opiates)
+=======
+
+str(opiates)
+
+opiates
+>>>>>>> ca85aab58c292dd53e33a74d9e0e290b3f6f0cd4
+```
+
+## Exploratory Question
+
+Develop an exploratory question that requires creating new aggregated variable(s) and write it out below. 
+
+Which states are most impacted by the opiate crisis and has the crisis gotten worse over time? 
+
+## Develop code to create your new variables
+
+Write our the code required to create your new aggregated variables
+```{r Aggregation_Summarize}
+#creating a new variable that gives us death rate per 100k citizen
+opiates_withper100k <- opiates %>%
+  mutate(death_per100k = deaths/(population/100000))
+
+#creating new summary table with mean death rate per 100k citizen across time
+opiates_meanper100k <- opiates_withper100k %>%
+  group_by(state,division_name)%>%
+  summarise(mean_per100k = mean(death_per100k))
+
+```
+
+##Create visualizations that address your exploratory question
+Create as many visualization as you need to properly address your question. 
+
+```{r Visualization 1}
+across_mean <- mean(opiates_meanper100k$mean_per100k)
+
+ggplot(opiates_meanper100k, aes(x = mean_per100k, 
+                                y = reorder(state,mean_per100k,na.rm = TRUE)))+
+  geom_point()+
+  geom_vline(aes(xintercept = across_mean))+
+  theme_classic()
+  
+```
+
+```{r Visualization 2}
+
+```
+

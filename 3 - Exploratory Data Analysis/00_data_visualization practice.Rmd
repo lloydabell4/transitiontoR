@@ -1,0 +1,76 @@
+---
+title: "Species"
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+  word_document: default
+---
+#Set up Code
+
+```{r setup}
+knitr::opts_chunk$set(echo = TRUE)
+```
+In this section of code, I am loading the packages needed and looking at the structure of the dataset. Then, I am grouping the data by sex and adding two new columns called mean_hindfoot and mean_weight to the table.
+```{r}
+library(tidyverse)
+library(dplyr)
+library(readr)
+surveys_complete <- read_csv("data/surveys_complete.csv")
+str(surveys_complete)
+```
+```{r}
+by_sex <- surveys_complete %>% 
+  group_by(sex) %>%
+  summarize(mean_hindfoot = mean(hindfoot_length, na.rm = TRUE),
+            mean_weight = mean(weight, na.rm = TRUE))
+```
+In this section of code, I am grouping the data by species ID and adding the mean hindfoot length and mean weight columns.
+```{r}
+by_species <- surveys_complete %>% 
+  group_by(species_id) %>%
+  summarize(mean_hindfoot = mean(hindfoot_length, na.rm = TRUE),
+            mean_weight = mean(weight, na.rm = TRUE))
+```
+In this section, I am creating a scatterplot that looks at the relationship between hindfoot length and weight as well as looking at the year, which is mapped to the color aesthetic. The darker the point, the earlier the year. 
+```{r}
+ggplot(data = surveys_complete) +
+  geom_point(mapping = aes(x = hindfoot_length, y = weight, color = year))
+
+
+```
+In this section, I am creating a visualization that shows the relationship between plot ID, weight, and species ID.
+```{r}
+ggplot(data = surveys_complete) +
+  geom_point(mapping = aes(x = plot_id, y = weight, color = species_id)) +
+  coord_flip()
+
+```
+In this section, I am creating a set of scatter plots in which plot ID is mapped to the x axis and weight is mapped to the y axis. These graphs are faceted by sex. 
+```{r}
+ggplot(data = surveys_complete) +
+  geom_point(mapping = aes(x = plot_id, y = weight)) +
+  facet_wrap(~sex)
+```
+This code section creates a visualization that shows the relationship between plot ID, hindfoot length, and sex, which is mapped to the color aesthetic.
+```{r}
+ggplot(data = surveys_complete) +
+  geom_point(mapping = aes(x = plot_id, y = hindfoot_length, color = sex)) +
+  scale_x_log10()
+```
+This section looks at the relationship between hindfoot length and plot ID and is faceted by species ID.
+```{r}
+ggplot(data = surveys_complete) +
+  geom_point(mapping = aes(x = plot_id, y = hindfoot_length)) +
+  facet_wrap(~species_id) +
+  coord_flip()
+```
+This code section created a scatterplot similar to the first one. It looks at the relationship between weight and hindfoot length, but also looks at how this data is broken down by species ID, which is mapped to the color aesthetic.
+```{r}
+ggplot(data = surveys_complete) +
+  geom_point(mapping = aes(x = weight, y = hindfoot_length, color = species_id))+
+  annotate("text", x = 115, y = 50, label = "these have long feet")
+```
+
+```{r}
+

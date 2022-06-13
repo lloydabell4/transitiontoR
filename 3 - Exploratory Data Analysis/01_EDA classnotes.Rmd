@@ -1,0 +1,302 @@
+---
+title: "class_04"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+library(socviz)
+
+#load friends data
+full_data <- read_csv("data/full_data.csv")
+
+
+#create list for filter
+target <- c ("Rachel Green", "Ross Geller", "Joey Tribbiani", "Chandler Bing", "Monica Geller", "Phoebe Buffay")
+
+#filter rows for only the main characters and drop rows with NAs
+fulldata_main <- full_data%>%
+  filter(speaker %in% target)%>%
+  drop_na()
+
+#note the new object that contains less rows
+```
+
+## Class Assessment (Where are you in your R journey?)
+
+These are meant to help you assess where you are in your R journey. If you can answer both of these questions without help, then you are a in a great place. If you struggle with these, practice some more. I recommend the primers you worked on last week or the exercises at the end of the chapters in R4.DS. 
+
+```{r Question 1}
+
+#look at the basics of the midwest dataset
+summary(midwest)
+
+#building a histogram based on the total population by county
+ggplot(data = midwest, mapping = aes(x = poptotal))+
+  geom_histogram(bins = 100)+
+  annotate("text", x = 4500000, y = 25, label = "Which County Is This?")+
+  labs(title = "Histogram of Midwestern Counties By Population", 
+       x = "Population", y = "Number of Counties")
+
+```
+
+
+```{r Quesetion 2}
+#build a basic dataset
+ages <- tribble(
+  ~speaker,      ~age,
+  "Rachel",         24,
+  "Phoebe",         27,
+  "Ross",           26,
+  "Monica",         24,
+  "Chandler",       26,
+  "Joey",           26
+)
+
+#create a new object that holds the mean of all the character's ages
+c_avg <- mean(ages$age)
+
+#create a bar chart that visualizes the character's age and mean
+ggplot(data = ages) +
+  geom_bar(mapping = aes(x = speaker, 
+                         y = age, 
+                         fill = speaker), 
+           stat = "identity")+
+  geom_hline(aes(yintercept = c_avg))+
+  labs(title = "How old were the Friends characters?", 
+       x = "Character", y = "Age (in years)")+
+  guides(fill=FALSE)
+```
+
+
+```{r create bar graph}
+#default stat transformation fro geom_bar() is stat_count()
+ggplot(data = fulldata_main)+
+  geom_bar(mapping = aes(x = speaker))+
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
+
+# no stat transformation        
+ages <- tribble(
+  ~speaker,      ~age,
+  "Rachel",         23,
+  "Phoebe",         28,
+  "Ross",           31,
+  "Monica",         24,
+  "Chandler",       24,
+  "Joey",           26
+)
+
+c_avg <- mean(ages$age)
+
+ggplot(data = ages) +
+  geom_bar(mapping = aes(x = speaker, 
+                         y = age, 
+                         fill = speaker), 
+           stat = "identity")+
+  geom_hline(aes(yintercept = c_avg))+
+  labs(title = "How old were the Friends characters?", 
+       x = "Character", y = "Age (in years)")+
+  guides(fill=FALSE)
+
+
+```
+
+## EDA
+
+```{r}
+#stacked bar graph
+ggplot(data = fulldata_main, mapping = aes(x = emotion, fill = speaker)) +
+  geom_bar()
+
+#emotion vs speaker faceted
+ggplot(data = fulldata_main, 
+       mapping = aes(x = emotion, y = stat(prop), 
+                     group = 1, fill = speaker))+
+  geom_bar()+
+  facet_wrap(~speaker)+
+  coord_flip()
+
+#speaker vs emotion faceted
+ggplot(data = fulldata_main, 
+       mapping = aes(x = speaker, y = stat(prop), 
+                     group = 1, fill = emotion))+
+  geom_bar()+
+  facet_wrap(~emotion)+
+  coord_flip()
+
+#create list of emotions that we want to highlight
+select_emotions <- c("Sad","Mad","Scared")
+
+#visualize selected emotions and clean up graph
+fulldata_main%>%
+  filter(emotion%in%select_emotions)%>%
+  ggplot(mapping = aes(x = speaker, y = stat(prop), 
+                       group = 1, fill = emotion))+
+  geom_bar()+
+  facet_wrap(~emotion)+
+  guides(fill = FALSE)+
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
+```
+## Data Transformations with dplyr
+```{r}
+#simply but verbose way of filtering data and dropping NAs
+full_data_new <- filter(full_data, speaker %in% target)
+full_data_new_na <- drop_na(full_data_new)
+
+#better way of filtering with pipes
+full_data_new_better <- full_data%>%
+  filter(speaker %in% target)%>%
+  drop_na()
+
+#creating new aggregated (n) variables 
+emotion_by_speaker <- full_data_new_na %>%
+  group_by(speaker,emotion)%>%
+  summarize(N=n())%>%
+  mutate(freq = N / sum(N), pct = round((freq*100),1))
+
+speaker_by_emotion <- full_data_new_na %>%
+  group_by(emotion,speaker)%>%
+  summarize(N=n())%>%
+  mutate(freq = N / sum(N), pct = round((freq*100),1))
+```
+
+##Organ Donor EDA
+
+How does organ donation differ across countries?
+Does the type of government impact organ donation trends?
+
+```{r plot continuous variables versus categorical}
+str(organdata)
+
+ggplot(data = organdata, mapping = aes(x = country, y = donors))+
+  geom_boxplot()
+
+ggplot(data = organdata, mapping = aes(x = country, y = donors))+
+  geom_boxplot() +
+  coord_flip()
+
+ggplot(data = organdata, mapping = aes(x = reorder(country, donors, na.rm=TRUE), y = donors))+
+  geom_boxplot()+
+  labs(x = NULL)+
+  coord_flip()
+
+ggplot(data = organdata, mapping = aes(x = reorder(country, donors, na.rm=TRUE), 
+                                       y = donors,
+                                       fill = world))+
+  geom_boxplot()+
+  labs(x = NULL)+
+  coord_flip()+
+  theme(legend.position = "top")
+
+ggplot(data = organdata, mapping = aes(x = reorder(country, donors, na.rm=TRUE), 
+                                       y = donors,
+                                       color = world))+
+  geom_point()+
+  labs(x = NULL)+
+  coord_flip()+
+  theme(legend.position = "top")
+
+ggplot(data = organdata, mapping = aes(x = reorder(country, donors, na.rm=TRUE), 
+                                       y = donors,
+                                       color = world))+
+  geom_jitter()+
+  labs(x = NULL)+
+  coord_flip()+
+  theme(legend.position = "top")
+
+ggplot(data = organdata, mapping = aes(x = reorder(country, donors, na.rm=TRUE), 
+                                       y = donors,
+                                       color = world))+
+  geom_jitter(position = position_jitter(width = 0.15))+
+  labs(x = NULL)+
+  coord_flip()+
+  theme(legend.position = "top")
+```
+
+```{r plotting means and SD}
+#verbose way (not comprehensive - just example of first 3)
+by_country_verbose <-  organdata %>% group_by(consent_law, country)%>%
+  summarise(donors_mean = mean(donors, na.rm = TRUE),
+            donors_sd = sd(donors, na.rm = TRUE),
+            gdp_mean = mean(gdp, na.rm = TRUE))
+
+#better way but requires summarize_if() 
+by_country <- organdata %>%
+  group_by(consent_law, country) %>%
+  summarize_if(is.numeric,
+               list(~ mean(., na.rm = TRUE),
+                    ~ sd(., na.rm = TRUE))) %>%
+  ungroup()
+by_country
+
+ggplot(data = by_country,
+       mapping = aes(x = donors_mean,
+                     y = reorder(country, donors_mean),
+                     color = consent_law))+
+  geom_point(size = 3) +
+  labs(x = "Donor Procurement Rate",
+       y = "", 
+       color = "Consent Law")+
+  theme(legend.position = "top")
+
+
+ggplot(data = by_country, mapping = aes(x = reorder(country, donors_mean),y = donors_mean))+
+         geom_pointrange(mapping = aes(ymin = donors_mean - donors_sd, 
+                                       ymax = donors_mean + donors_sd,
+                                       color = consent_law))+
+         labs(x = "", y="Donor Procurement Rate")+
+         coord_flip()+theme(legend.position = "top")
+```
+
+
+```{r ploting text on graphs}
+ggplot(data = by_country,
+       mapping = aes(x = roads_mean, y = donors_mean))+
+  geom_point()
+
+ggplot(data = by_country,
+       mapping = aes(x = roads_mean, y = donors_mean))+
+  geom_point() +
+  geom_text(mapping = aes(label = country))
+
+ggplot(data = by_country,
+       mapping = aes(x = roads_mean, y = donors_mean))+
+  geom_point() +
+  geom_text(mapping = aes(label = country), hjust = 0)
+
+ggplot(data = by_country,
+       mapping = aes(x = roads_mean, y = donors_mean))+
+  geom_point() +
+  geom_text(mapping = aes(x = roads_mean + 1, label = country), hjust = 0)
+
+ggplot(data = by_country,
+       mapping = aes(x = roads_mean, y = donors_mean))+
+  geom_point() +
+  geom_text(mapping = aes(label = country), nudge_x = 5)
+```
+```{r working with scales}
+by_country_world <- organdata %>%
+  group_by(world, country, donors) %>%
+  summarize_if(is.numeric,
+               list(~ mean(., na.rm = TRUE),
+                    ~ sd(., na.rm = TRUE))) %>%
+  ungroup()
+by_country_world
+
+d <- ggplot(data = by_country_world,
+            mapping = aes(x = roads_mean,
+                          y = donors, color = world))
+d + geom_point() +
+  scale_x_log10() + scale_y_continuous(breaks = c(5, 15, 25),
+                                       labels = c("Five", "Fifteen", "Twenty Five"))
+
+e <- ggplot(data = by_country_world, mapping = aes(x = roads_mean, y = donors, color = world))
+e + geom_point() + scale_color_discrete(labels = c("Corporatist", "Liberal","Social Democratic", "Unclassified")) +
+  labs(x = "Road Deaths", y = "Donor Procurement",color = "Welfare State")+
+  guides(color = FALSE)
+```
+

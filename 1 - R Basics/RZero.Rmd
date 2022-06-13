@@ -350,7 +350,7 @@ Ok, that's a lot up unpack! Some things to notice.
 **Exercise: Import explore new data set**
 
 ```{r Exercise: Import and explore friends_emotions.csv}
-## Import the friends_emotions.csv found in the cloud/project/Data folder and assign the data frame to a new object "emotions"
+## Import the friends_emotions.csv found in the /Data folder and assign the data frame to a new object "emotions"
 
 ## Explore the structure of emotions. How many variables and observations does your data frame have? What mode are your variables?
 

@@ -1,0 +1,41 @@
+---
+title: "EDA"
+author: "Andrew Bell"
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(ggrepel)
+```
+
+## *Learning Objectives*
+
+-   Become familiar with data transformations
+-   Understand how to deal with na's
+-   Learn how manipulate labels and values in ggplot 
+-   
+
+## Data Transformations
+
+In essence, most everything you do in R involves **objects**. **Functions** take **arguments** (some of which are objects) and produce outputs (which you can assign to a new object).
+
+Data frames are made up of multiple lists. You can create dataframes using the data_frame() function.
+
+```{r}
+
+```
+
+-   
+
+## How to Deal with NA's
+
+We want to be able to make visualizations from data - so we need a function that outputs a plot based on the objects and arguments we give it. Enter the **ggplot()** function. Below is most basic syntax (structure of code re
+
+## Learn how manipulate labels and values in ggplot
+
+I want you to now create your own visualization that explores the how the shows popularity changed over time.

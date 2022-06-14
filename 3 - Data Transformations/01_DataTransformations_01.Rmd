@@ -174,7 +174,7 @@ ggplot(friends_info, aes(season, imdb_rating))+
 
 ## How to Deal with NA's (missing values)
 
-Missing values can cause all sorts of headaches because many aggregation functions will output a missing value if a missing value in part of the input. There are two primary ways of getting around this issue.
+Missing values can cause all sorts of headaches because many aggregation functions will output a missing value if a missing value in part of the input. There are two primary ways of getting around this issue. For more details on how to deal with missing values check out the second edition of R4DS (<https://r4ds.hadley.nz/missing-values.html>).
 
 ### The na.rm argument
 

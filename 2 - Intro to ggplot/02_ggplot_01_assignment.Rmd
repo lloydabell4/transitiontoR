@@ -10,13 +10,11 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Assignment 2
 
-For this assignment I'd like for you to explore the power of ggplot while also applying your data visualization critique knowledge to your new visualizations
+For this assignment I'd like for you to explore the power of ggplot.
 
-### Step 1 (1pt) 
+### Step 1 (1pt)
 
-Load tidyverse package. 
-Load gapminder package 
-Assign the data in the gapminder package to an object "data"
+Load tidyverse package. Load gapminder package Assign the data in the gapminder package to an object "data"
 
 ```{r data}
 #your code below
@@ -45,11 +43,13 @@ Create a data visualization that explores the relationship between year and life
 ```
 
 ### Step 4 (2pts)
-Evaluate your data visualization based on the 5 principles of an effective data visualizations we talked about in class on 9/4. Make sure to use *markdown* effectively. 
+
+Evaluate your data visualization based on the 5 principles of an effective data visualizations we talked about in class on 9/4. Make sure to use *markdown* effectively.
 
 ---your evaluation here---
 
 ### Step 5 (3pts)
+
 Create a new data visualization that adds an additional variable to your visualization (maps a new variable to a new aesthetic). Describe the resulting visualization (3 sentences or less)
 
 ```{r data visualization number 2}

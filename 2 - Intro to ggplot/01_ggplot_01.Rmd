@@ -10,6 +10,7 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
+library(ggrepel)
 ```
 
 ## *Learning Objectives*
@@ -29,7 +30,7 @@ Data frames are made up of multiple lists. You can create dataframes using the d
 #new object "my_kids" assigned the output of the function "c". The function c creates a list of strings(my_family) or numbers(kid_ages)
 
 my_family <- c("Katie","Finn","Jack","Josie")
-kid_ages <- c(NA,1,3,5)
+kid_ages <- c(NA,2,4,6)
 df <- data_frame(my_family, kid_ages)
 
 df
@@ -98,7 +99,21 @@ first_viz <- first_viz +
        x = "Views (millions)", 
        y = "IMDB Rating")+
   scale_y_continuous(breaks = seq(7,10.5, by = 0.5))+
-  annotate("text", x = 45, y = 9.25, label = "Outliers?")
+  annotate("text", x = 50, y = 9.25, label = "Outliers?")
+  
+first_viz
+```
+
+```{r}
+first_viz <-  ggplot(data = friends_info, 
+                    mapping = aes(x = us_views_millions, y = imdb_rating))+
+  geom_point()+
+  geom_text_repel(data = subset(friends_info, us_views_millions > 40),
+                                         mapping = aes(label = title))+
+  labs(title = "Friends Episodes: IMDB Rating vs Viewers", 
+       x = "Views (millions)", 
+       y = "IMDB Rating")+
+  scale_y_continuous(breaks = seq(7,10.5, by = 0.5))
   
 first_viz
 ```
@@ -131,7 +146,7 @@ Resources to help:
 
 ## One more thing... An Introduction to Data Transformation
 
-What if we wanted to learn more about those those outliers that we identified above? We can use some basic data transformation functions to quickly filter our data to learn more abou those specific episodes.
+What if we wanted to learn more about those those outliers that we identified above? We can use some basic data transformation functions to quickly filter our data to learn more about those specific episodes.
 
 ```{r}
 filter_friends <- filter(friends_info, us_views_millions >40)
@@ -139,7 +154,7 @@ filter_friends <- filter(friends_info, us_views_millions >40)
 filter_friends
 ```
 
-This brings up another issue: some 'titles' are made up of two episodes and when points overlap on our visualization, we can't see them. How could we fix this?
+This brings up another issue: some 'titles' are made up of two episodes and when points overlap on our visualization, we can't see them. How could we fix this? How could you explore how the role of Director impacted both imdb rating and views?
 
 ```{r}
 title_friends <- friends_info %>%
@@ -150,8 +165,9 @@ title_friends <- friends_info %>%
 title_friends
 
 second_viz <- ggplot(data = title_friends, mapping = aes(x = mean_views, y = mean_rating))+
-  geom_point()+
-  #geom_jitter()+
+  geom_point(alpha = .5)+
+   geom_text_repel(data = subset(title_friends, mean_views > 40),
+                                         mapping = aes(label = title))+
   labs(title = "Friends Episodes: IMDB Rating vs Viewers", 
        subtitle = "By Episode Title",
        x = "Views (millions)", 

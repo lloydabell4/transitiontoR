@@ -15,14 +15,10 @@ Considering sharing one of your groups projects with your group so you can work 
 
 ```{r Setup }
 library(socviz)
-<<<<<<< HEAD
-str(opiates)
-=======
 
 str(opiates)
 
 opiates
->>>>>>> ca85aab58c292dd53e33a74d9e0e290b3f6f0cd4
 ```
 
 ## Exploratory Question

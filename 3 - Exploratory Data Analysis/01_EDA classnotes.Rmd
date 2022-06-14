@@ -28,14 +28,14 @@ fulldata_main <- full_data%>%
 
 ## Class Assessment (Where are you in your R journey?)
 
-These are meant to help you assess where you are in your R journey. If you can answer both of these questions without help, then you are a in a great place. If you struggle with these, practice some more. I recommend the primers you worked on last week or the exercises at the end of the chapters in R4.DS. 
+These are meant to help you assess where you are in your R journey. If you can answer both of these questions without help, then you are a in a great place. If you struggle with these, practice some more. I recommend the primers from RStudio.Cloud or the exercises at the end of the chapters in R4.DS. 
 
 ```{r Question 1}
 
 #look at the basics of the midwest dataset
 summary(midwest)
 
-#building a histogram based on the total population by county
+#build a histogram based on the total population by county
 ggplot(data = midwest, mapping = aes(x = poptotal))+
   geom_histogram(bins = 100)+
   annotate("text", x = 4500000, y = 25, label = "Which County Is This?")+
@@ -45,7 +45,7 @@ ggplot(data = midwest, mapping = aes(x = poptotal))+
 ```
 
 
-```{r Quesetion 2}
+```{r Question 2}
 #build a basic dataset
 ages <- tribble(
   ~speaker,      ~age,

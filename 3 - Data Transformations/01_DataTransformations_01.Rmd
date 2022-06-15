@@ -12,6 +12,7 @@ knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
 library(ggrepel)
 library(DT)
+library(DataEditR)
 
 friends_info <- read_csv("data/friends_info.csv")
 friends_info_na <- read_csv("data/friends_info_nas.csv")
@@ -22,6 +23,7 @@ friends_full <- read_csv("data/full_data.csv")
 
 -   Become familiar with data transformation functions
 -   Understand how to deal with na's
+-   Learn how to use the package DataEditR to do simple edits to data
 
 ## Data Transformations
 
@@ -212,4 +214,33 @@ friends_full%>%
   group_by(emotion, speaker)%>%
   summarise(n = n())%>%
   arrange(emotion, n)
+```
+
+## Using DataEditR
+
+One of the major benefits of using R in your research workflow is that it creates a scriptable / reproducible process but for beginners to R it can be hard to break old habits. Many of us have relied on GUI based spreadsheet programs (Excel) for so long it can be hard to think in R. **DataEditR** is package that can help your transition to R.
+
+**DataEditR** is a package with a single function called data_edit() that creates an interactive data editor. Within this GUI editor you can:
+
+-   column selection using the `dataSelect` module
+-   row selection using the `dataFilter` module
+-   edit row or column names
+-   addition or removal of rows or columns
+-   manual column resizing
+-   drag to fill cells
+-   copy or paste data to and from external software
+-   custom column types to simplify user input (e.g. checkboxes and dropdown menus)
+-   support for readonly columns to prevent users from editing certain columns
+-   control over which column names can be edited
+-   stretch columns horizontally to fill available space
+-   programmatically add columns or rows to data prior to loading into the data editor
+
+You can call up the interface by using the data_edit() function.
+
+To create a new data file from an existing data frame use the following syntax:
+
+```{r}
+friends_info_new <- data_edit(friends_info,
+                        save_as = "friends_info_new.csv")
+
 ```

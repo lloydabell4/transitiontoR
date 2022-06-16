@@ -20,6 +20,8 @@ friends_info_na <- read_csv("data/friends_info_nas.csv")
 friends_full <- read_csv("data/full_data.csv")
 ```
 
+![](images/egor-myznik-jVWziyTMckI-unsplash.jpg)
+
 ## Learning Objectives
 
 -   Become familiar with data transformation functions

@@ -1,10 +1,11 @@
 ---
 title: "Data Wrangling"
-author: "Andrew Bell"
-output:
-  html_document:
-    df_print: paged
-  pdf_document: default
+description: |
+  Building Analysis Workflows
+author:
+  - name: Andrew Bell
+date: 2022
+output: html_document
 ---
 
 ```{r setup, include=FALSE}
@@ -13,13 +14,15 @@ library(tidyverse)
 library(janitor)
 ```
 
-## *Learning Objectives*
+![](images/huum-r5CSRlVOp3U-unsplash.jpg)
+
+## Learning Objectives
 
 -   Understand how to use spreadsheets within R
 -   Be able to identify what is and isn't 'tidy data'
 -   Learn how to manipulate data to make it tidy
 
-## *Spreadsheets*
+## Spreadsheets
 
 So far we've explored importing data from plain text files, e.g. .csv. Sometimes you need to analyze data that lives in a spreadsheet. In this chapter we will introduce you to tools for working with data in Excel spreadsheets.
 
@@ -93,7 +96,7 @@ Use the ? to learn more about the syntax of using the ***haven*** package
 ?haven()
 ```
 
-## *Tidy Data*
+## Tidy Data
 
 The power of ggplot and dplyr are only realized when given tidy data. Data can be represented in multiple ways. Check out the ways the same data is represented below.
 

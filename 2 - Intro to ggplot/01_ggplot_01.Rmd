@@ -1,10 +1,11 @@
 ---
-title: "Introduction to ggplot"
-author: "Andrew Bell"
-output:
-  pdf_document: default
-  html_document:
-    df_print: paged
+title: 'Intro to ggplot'
+description: |
+  Visualing your data
+author: 
+  - name: "Andrew Bell"
+date: 2022
+output: html_document
 ---
 
 ```{r setup, include=FALSE}
@@ -13,11 +14,13 @@ library(tidyverse)
 library(ggrepel)
 ```
 
-## *Learning Objectives*
+![](images/stephen-leonardi-Zn2McoYVU7k-unsplash-01.jpg)
+
+## Learning Objectives
 
 -   Review Rzero
--   Understand ggplot syntax
 -   Learn the grammar of graphics
+-   Understand ggplot syntax
 -   Start adding to your data visualization toolset
 
 ## Review RZero
@@ -31,7 +34,7 @@ Data frames are made up of multiple lists. You can create dataframes using the d
 
 my_family <- c("Katie","Finn","Jack","Josie")
 kid_ages <- c(NA,2,4,6)
-df <- data_frame(my_family, kid_ages)
+df <- tibble(my_family, kid_ages)
 
 df
 ```
@@ -58,6 +61,29 @@ average_age
 
 At this point, if you don't feel comfortable with the differences between objects, functions, arguments, and operators go back to Rzero and work through that lesson again.
 
+## The Grammar of Graphics
+
+What is the grammar of linguistics?
+
+The grammar is the set of structural rules governing the composition of clauses, phrases, and words in a natural language. So what is the grammar of graphics - what are rules by which we can construct a graphic?
+
+![](images/Screen%20Shot%202022-06-16%20at%208.59.31%20AM.png)
+
+The essential building blocks of a graphic:
+
+-   Data
+-   Aesthetics
+-   Geometric Objects
+-   Scales
+-   Coordinate System
+-   Statistical Transformations
+
+With the building blocks and rules developed by Wilkinson in 2005, we can construct pretty much any visualization we want.
+
+![](images/Screen%20Shot%202022-06-16%20at%209.01.19%20AM.png)
+
+ggplot() is a function built into the tidyverse package that uses the grammar of graphics framework to construct visualizations.
+
 ## Learning ggplot syntax
 
 We want to be able to make visualizations from data - so we need a function that outputs a plot based on the objects and arguments we give it. Enter the **ggplot()** function. Below is most basic syntax (structure of code required to make the function work) of the ggplot function.
@@ -75,7 +101,7 @@ friends_info
 head(friends_info)
 ```
 
-We want to create an object (first_viz) that contains a visualization created by the ggplot function. The ggplot function takes two essential arguments: data and the mapping of variables to specific aesthetics (like x and y coordinates). For our first visualization, we are going to plot the number of view (US_views_millions) by the critic ratings (imdb_rating)
+We want to create an object (first_viz) that contains a visualization created by the ggplot function. The ggplot function takes two essential arguments: data and the mapping of variables to specific aesthetics (like x and y coordinates). For our first visualization, we are going to plot the number of view (US_views_millions) by the critic ratings (imdb_rating) for each episode.
 
 ```{r}
 first_viz <- ggplot(data = friends_info, 
@@ -83,7 +109,7 @@ first_viz <- ggplot(data = friends_info,
                                   y = imdb_rating))
 ```
 
-Our object now needs a geom layer (think plot type, e.g. scatterplot or bar plot) so we'll add that layer to our existing first_viz object.
+Our object now needs a geom layer (think plot type, e.g. scatterplot or bar plot) so we'll add that layer to our existing first_viz object. Note: in order to show the plot in the code chunk, we need to call the object that contains it (first_viz).
 
 ```{r}
 first_viz <- first_viz + geom_point()

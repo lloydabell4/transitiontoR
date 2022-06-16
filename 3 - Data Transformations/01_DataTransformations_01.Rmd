@@ -1,10 +1,11 @@
 ---
-title: "Data Transformations"
-author: "Andrew Bell"
-output:
-  html_document:
-    df_print: paged
-  pdf_document: default
+title: 'Data Transformations'
+description: |
+  Doing More with Data
+author: 
+  - name: "Andrew Bell"
+date: 2022
+output: html_document
 ---
 
 ```{r setup, include=FALSE}
@@ -19,13 +20,15 @@ friends_info_na <- read_csv("data/friends_info_nas.csv")
 friends_full <- read_csv("data/full_data.csv")
 ```
 
-## *Learning Objectives*
+## Learning Objectives
 
 -   Become familiar with data transformation functions
 -   Understand how to deal with na's
 -   Learn how to use the package DataEditR to do simple edits to data
 
 ## Data Transformations
+
+In the previous session, we explored the friends_info dataset. What analysis and/or insight was not possible with the ggplot() code that we learned? What core grammar of graphics building block did we not talk about?
 
 ### dplyr basics (modified from r4ds 5.1.3)
 

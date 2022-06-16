@@ -1,31 +1,33 @@
 ---
 title: 'Setup'
-author: "Andrew Bell"
-output:
-  pdf_document: default
-  word_document: default
-  html_document:
-    df_print: paged
+description: |
+  Getting Ready to Code
+author: 
+  - name: "Andrew Bell"
+date: 2022
+output: html_document
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-### *Learning Objectives*
+![](Images/stephen-leonardi-8icXfoY5zlI-unsplash.jpg)
+
+## Learning Objectives
 
 -   Identify the different ways you can use R
 -   Become familiar with RStudio Workbench: sessions vs projects
 -   Identify the resources used to create this workshop that will help you in your journey to learn R.
 -   If interested, learn how to install R and RStudio on your computer
 
-### Ways to use R
+## Ways to use R
 
-R is a programming language, but also a software environment (R Core Team, 2020). To start learning R, you first need to install some software programs (R and RStudio) on your computer or use a hosted R development platform that already has R and RStudio installed (RStudio.Cloud). For this class, we will use RStudio Workbench because it reduces the challenges of local, individual installations of R and RStudio.
+R is a programming language, but also a software environment (R Core Team, 2020). To start learning R, you first need to install some software programs (R and RStudio) on your computer or use a hosted R development platform that already has R and RStudio installed (RStudio Workbench). For this class, we will use RStudio Workbench because it reduces the challenges of local, individual installations of R and RStudio.
 
 We will talk about the advantage and disadvantages of using RStudio Workbench later in this workshop but know that the University is currently supporting and paying for RStudio Workbench.
 
-### RStudio Workbench and R Projects
+## RStudio Workbench and R Projects
 
 Navigate to [RStudio Workbench](http://spiderweb.richmond.edu:8787) and sign in with your University of Richmond netID and password.
 
@@ -43,7 +45,7 @@ Enter the information about my github repository into the boxes as seen below:
 
 -   Project Directory Name: **TransitionToR**
 
-### Resources
+## Resources
 
 This workshop relies heavily on two primary sources.
 

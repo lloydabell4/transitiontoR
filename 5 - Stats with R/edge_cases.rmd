@@ -21,7 +21,7 @@ all_data <- list.files(here("real_life_data"), pattern = "*.csv") %>%
 
 
 ```{r}
-raw_df <- read_csv(here("simple_data", "combo_treat.csv"))
+raw_df <- read_csv("simple_data/combo_treat.csv")
 ```
 
 

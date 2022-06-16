@@ -161,7 +161,7 @@ glimpse(stats_df)
   
 
 ```{r, eval = F}
-aov(dependent_variable ~ independent variable, data = data_df)
+#aov(dependent_variable ~ independent variable, data = data_df)
 ```
 
 ```{r, eval = F}
@@ -176,12 +176,7 @@ ad_aov <- aov(mmse ~ sex * drug_treatment * health_status,
 ```
 
 
-```{r, eval = F}
-# this throws an error because we shouldn't use commas in between!
-ad_aov <- aov(mmse ~ sex, drug_treatment, health_status, data = stats_df)
-```
-  
-***
+
 
   
 ```{r}

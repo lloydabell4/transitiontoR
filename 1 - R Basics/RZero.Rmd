@@ -2,9 +2,10 @@
 title: "R Zero"
 author: "Andrew Bell"
 output:
-  word_document: default
+  pdf_document: default
   html_document:
     df_print: paged
+  word_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -197,7 +198,7 @@ a <- 1
 Next, run this line of code in your script. You can run a line of code by hitting the Run button that is just above the first line of your script in the header of the Source pane or you can use the appropriate shortcut:
 
 -   Windows execution shortcut: `Ctrl`+`Enter`
--   Mac execution shortcut: `Cmd(⌘)`+`Enter`
+-   Mac execution shortcut: `Cmd()`+`Enter`
 
 To run multiple lines of code, you can highlight all the line you wish to run and then hit Run or use the shortcut key combo listed above.
 

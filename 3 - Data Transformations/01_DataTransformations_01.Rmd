@@ -2,9 +2,9 @@
 title: "Data Transformations"
 author: "Andrew Bell"
 output:
-  pdf_document: default
   html_document:
     df_print: paged
+  pdf_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -239,8 +239,7 @@ You can call up the interface by using the data_edit() function.
 
 To create a new data file from an existing data frame use the following syntax:
 
-```{r}
-friends_info_new <- data_edit(friends_info,
-                        save_as = "friends_info_new.csv")
+```{r eval=FALSE, include=FALSE}
+#friends_info_new <- data_edit(friends_info,save_as = "friends_info_new.csv")
 
 ```

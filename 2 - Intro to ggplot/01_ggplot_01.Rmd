@@ -142,4 +142,8 @@ Resources to help:
 
 -   [Esquisser](https://dreamrs.github.io/esquisse/) package as a GUI introduction to the ggplot syntax.
 
-**Esquisse** This is a great tool to get students comfortable with ggplot's layer / syntax. Workshop to come...
+**Esquisse** This is a great tool to get students comfortable with ggplot's layer / syntax.
+
+```{r}
+#esquisser()
+```

@@ -1,10 +1,10 @@
 ---
 title: "A Gentle Guide to Tidy Statistics in R"
 description: |
-  Working your way through a basic analysis
+  Developing a better scholarship workflow
 author:
-  - name: Thomas Mock
-date: 03-16-2018
+  - name: Andrew Bell
+date: 2022
 output: html_document
 ---
 
@@ -16,7 +16,9 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Introduction
 
-After a great discussion started by Jesse Maegan (@kiersi) on Twitter, I decided to post a workthrough of some (fake) experimental treatment data. These data correspond to a new (fake) research drug called AD-x37, a theoretical drug that has been shown to have beneficial outcomes on cognitive decline in mouse models of Alzheimer's disease. In the current experiment we will be statistically testing whether the drug was effective in reducing cognitive impairment in dementia patients. See the data [HERE](https://github.com/jthomasmock/tidy-stats-in-R/blob/master/ad_treatment.xlsx "Data for Tidy Stats").
+This file is based on Thomas Mocks fantastic article "A Gentle Guide to Tidy Statistics with R". 
+
+Let's suppose you are a researcher studying Alzheimers. You' These data correspond to a new (fake) research drug called AD-x37, a theoretical drug that has been shown to have beneficial outcomes on cognitive decline in mouse models of Alzheimer's disease. In the current experiment we will be statistically testing whether the drug was effective in reducing cognitive impairment in dementia patients. See the data [HERE](https://github.com/jthomasmock/tidy-stats-in-R/blob/master/ad_treatment.xlsx "Data for Tidy Stats").
 
 We will be using MMSE (mini-mental status exam) scores to assess the degree of cognitive impairment. In a real clinical trial, many other variables would be recorded, but for the sake of a straightforward but multi-variate example we will stick to just MMSE.
 

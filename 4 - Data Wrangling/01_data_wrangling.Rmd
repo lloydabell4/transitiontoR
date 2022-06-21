@@ -199,3 +199,52 @@ table2 %>%
 ![Pivoting \`table2\` into a "wider", tidy form.](https://d33wubrfki0l68.cloudfront.net/8350f0dda414629b9d6c354f87acf5c5f722be43/bcb84/images/tidy-8.png)
 
 Figure wider: Pivoting `table2` into a "wider", tidy form.
+
+## Exercise: Data Wrangling
+
+**untidy_1**
+
+untidy_1 is a dataset from a fictional study exploring the role of multiple factors (blood type, dsm type, and age) on cortisol levels after a stressful event.
+
+For this exercise:
+
+1) Explore the dataset untidy_1.csv and determine how to make it tidy
+
+2) Write the code required to tidy the data
+
+3) Determine the mean cortisol levels for each trial by DSM type.
+
+```{r}
+#untidy_1 exercise
+
+```
+
+**untidy_2**
+
+untidy_2 is a dataset from a fictional sociological study (with fictional numbers) looking at the number of law suits over time.
+
+For this exercise:
+
+1) Explore the dataset untidy_2.csv and determine how to make it tidy
+
+2) Write the code required to tidy the date
+
+3) Determine the mean number of law suits for countries whose GDP is greater than 1 trillion.
+
+```{r}
+#untidy_2 exercise
+```
+
+**your_data**
+
+1) Upload your data into your data folder and import the data into your environment.
+
+2) Determine whether your data is tidy. If not, write the code required to tidy it.
+
+3) Create one summary table from your data
+
+4) Create a visualization based on your data that looks at one or more variables.
+
+```{r}
+#your_data exercise
+```

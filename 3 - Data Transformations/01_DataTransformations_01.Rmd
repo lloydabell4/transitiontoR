@@ -14,6 +14,7 @@ library(tidyverse)
 library(ggrepel)
 library(DT)
 library(DataEditR)
+library(knitr)
 
 friends_info <- read_csv("data/friends_info.csv")
 friends_info_na <- read_csv("data/friends_info_nas.csv")
@@ -74,7 +75,10 @@ We can use filter to filter our tables
 ```{r}
 filter_friends <- filter(friends_info, us_views_millions >40)
 
-filter_friends
+?kable()
+
+kable(filter_friends, format = "html")
+#curious about kable()? Use the ?kable() to read the function's documentation
 ```
 
 ### Arrange rows with arrange()
@@ -244,7 +248,7 @@ You can call up the interface by using the data_edit() function.
 
 To create a new data file from an existing data frame use the following syntax:
 
-```{r eval=FALSE, include=FALSE}
+```{r eval=FALSE, include=TRUE}
 #friends_info_new <- data_edit(friends_info,save_as = "friends_info_new.csv")
 
 ```

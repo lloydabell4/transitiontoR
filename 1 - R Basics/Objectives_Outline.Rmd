@@ -12,7 +12,7 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-![](Images/elena-rouame-9JU2CKqtw0M-unsplash.jpg)
+![](Images/elena-rouame-9JU2CKqtw0M-unsplash.jpg){width="1500"}
 
 ## Overall Workshop Learning Objectives
 
@@ -25,7 +25,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Taken from [De Reis, 2021](https://link.springer.com/article/10.1007/s11135-021-01113-x):
 
-Concept maps were introduced by Novak and Gowin to activate or elaborate (prior) knowledge. "Concept maps are graphical tools for organizing and representing knowledge. They include concepts, usually enclosed in circles or boxes of some type, and relationships between concepts indicated by a connecting line linking two concepts" (Novak and Cañas 2008).
+Concept maps are described by Novak and Gowin as tools to activate or elaborate (prior) knowledge. "Concept maps are graphical tools for organizing and representing knowledge. They include concepts, usually enclosed in circles or boxes of some type, and relationships between concepts indicated by a connecting line linking two concepts" (Novak and Cañas 2008).
 
 ![Example of a hierarchical concept map by Ed Dole (adapted from Dori 2004)](Images/11135_2021_1113_Fig1_HTML.webp)
 
@@ -36,7 +36,7 @@ Developing a concept map for your research project is a helpful organization exe
 -   barriers / bottle necks - Where do things break down? How do you manage collaborative projects? Where would you like to see better efficiencies?
 -   big and small questions - What are the research questions that your project addresses? These can be both broad but also specific questions.
 
-## How scripting languages like R can help research workflows
+## Scripting languages can improve research workflows
 
 The use of R in creating reproducible workflows is well documented. A recent article ([Crosas](https://www.nature.com/articles/s41597-022-01143-6#auth-Merc_-Crosas), 2022) explores the way R can and cannot improve reproductibility but there are more than reproducible benefit from using a scripting language in your research workflows. Scripting can:
 

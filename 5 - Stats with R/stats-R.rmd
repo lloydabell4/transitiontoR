@@ -924,7 +924,7 @@ Now that we have this data frame, we can use it in a `geom_text` call to label o
 
 Here is what the final publication graph looks like in `ggplot2` code. You'll notice I assigned it to `g1` rather than just calling it directly. This means I will have to call `g1` to view the graph, but I can save it now! To read what we are doing, I am calling the initial `ggplot` call as before, but adding an error bar layer, a bar graph layer, separating into panes for sex and health_status, switching to an alternate appearance (`theme_bw`), setting the colors manually, making minor adjustments via theme, adding the `*` for indication of significance, and lastly altering the axis labels while adding a figure caption.
 
-```{r, eval = F, fig.height=6, fig.width=7}
+```{r, fig.height=6, fig.width=7}
 g1 <- ggplot(data = sum_df, 
        aes(x = drug_treatment, y = mmse_mean, fill = drug_treatment,  
            group = drug_treatment)) +

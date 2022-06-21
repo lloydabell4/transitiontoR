@@ -85,19 +85,19 @@ A function in R (or any computing language) is a short program that takes some i
 
 Try the following functions by writing them in your script. See if you can guess what they do, and make sure to add comments to your script about your assumed purpose.
 
-```{r}
+```{r, results='hide'}
 dir()
 ```
 
-```{r}
+```{r, results='hide'}
 sessionInfo()
 ```
 
-```{r}
+```{r, results='hide'}
 date()
 ```
 
-```{r}
+```{r, results='hide'}
 Sys.time()
 ```
 
@@ -138,7 +138,7 @@ You can also see a function's argument using the `args()` function:
 args(round)
 
 #add code below to round 3.14159 to 3.14
-round(3.14159, digits = 2)
+
 ```
 
 **Contentual Help**
@@ -219,8 +219,8 @@ a <- 4
 You can also remove an object from R's memory entirely. The `rm()` function will delete the object.
 
 ```{r}
-# delete the object 'gene_name'
-rm(gene_name)
+# delete the object 'a'
+rm(a)
 ```
 
 ### Operators
@@ -388,5 +388,7 @@ You are in luck, someone kind soul in this world created a package called "cowsa
 9.  Some packages have built in data. In COWSAY, there is a "rms" data set that pulls a random 'quote 'fact' about Richard Stallman from rmsfact::rmsfact() package. Instead of having your animal say your phrase, have it say a random quote from Richard.
 
 ```{r}
+#cowsay code
+
 
 ```

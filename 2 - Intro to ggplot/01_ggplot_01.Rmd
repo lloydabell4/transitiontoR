@@ -94,7 +94,7 @@ We are going to use the friends_info dataset we used at the end of Rzero to get 
 
 First let's take a look at our friends_info. Note how many variables and observations are found in the dataset.
 
-```{r}
+```{r, results='hide'}
 friends_info <- read_csv("data/friends_info.csv")
 friends_info
 

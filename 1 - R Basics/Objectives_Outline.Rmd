@@ -64,7 +64,6 @@ One of my hopes for this workshop is for you to think about what is currently in
 
 ![](Images/cesar-carlevarino-aragon-NL_DF0Klepc-unsplash.jpg)
 
-<<<<<<< HEAD
 ## Schedule of the Workshop
 
 | Time          | Topic                                   |
@@ -79,6 +78,3 @@ One of my hopes for this workshop is for you to think about what is currently in
 | 01:30 - 02:25 | Data Wrangling                          |
 | 02:25 - 02:30 | Break                                   |
 | 02:30 - 03:00 | Stats and Implementing your Own Code    |
-=======
-### 
->>>>>>> 9b9e6dbfe3b14eaff6ac143bb89cb5582dfe44cf

@@ -64,6 +64,7 @@ One of my hopes for this workshop is for you to think about what is currently in
 
 ![](Images/cesar-carlevarino-aragon-NL_DF0Klepc-unsplash.jpg)
 
+<<<<<<< HEAD
 ## Schedule of the Workshop
 
 | Time          | Topic                                   |

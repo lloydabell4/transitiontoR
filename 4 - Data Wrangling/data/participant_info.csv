@@ -1,0 +1,101 @@
+participant_id,birthplace,current_residence,favorite_color,favorite_historical_era,preferred_photo_format
+1,"Tokyo, Japan","New York, USA",Red,Renaissance,Polaroid
+2,"New York, USA","Tokyo, Japan",Yellow,Ancient Egypt,Digital
+3,"Tokyo, Japan","London, UK",Green,Ancient Egypt,Film
+4,"New York, USA","Tokyo, Japan",Blue,Ancient Egypt,Polaroid
+5,"New York, USA","London, UK",Red,World War II,Digital
+6,"Tokyo, Japan","Tokyo, Japan",Blue,Renaissance,Polaroid
+7,"Sydney, Australia","Sydney, Australia",Blue,Medieval,Digital
+8,"Tokyo, Japan","Berlin, Germany",Yellow,World War II,Digital
+9,"Berlin, Germany","Mumbai, India",Green,Ancient Egypt,Polaroid
+10,"Mumbai, India","Sydney, Australia",Blue,Renaissance,Digital
+11,"New York, USA","London, UK",Blue,Medieval,Film
+12,"Mumbai, India","Tokyo, Japan",Red,Medieval,Film
+13,"New York, USA","Tokyo, Japan",Green,Ancient Egypt,Digital
+14,"Sydney, Australia","Berlin, Germany",Blue,Renaissance,Polaroid
+15,"Berlin, Germany","Berlin, Germany",Green,Medieval,Digital
+16,"London, UK","London, UK",Yellow,Medieval,Film
+17,"Sydney, Australia","Sydney, Australia",Red,World War II,Film
+18,"London, UK","Tokyo, Japan",Blue,Medieval,Digital
+19,"Berlin, Germany","Berlin, Germany",Green,Renaissance,Polaroid
+20,"Mumbai, India","Mumbai, India",Green,Renaissance,Film
+21,"London, UK","London, UK",Yellow,Ancient Egypt,Polaroid
+22,"Mumbai, India","Sydney, Australia",Green,Medieval,Polaroid
+23,"London, UK","Mumbai, India",Green,Ancient Egypt,Digital
+24,"Mumbai, India","London, UK",Blue,Renaissance,Polaroid
+25,"Tokyo, Japan","Mumbai, India",Green,Renaissance,Digital
+26,"New York, USA","Mumbai, India",Blue,Renaissance,Film
+27,"Sydney, Australia","New York, USA",Red,Ancient Egypt,Polaroid
+28,"Berlin, Germany","Tokyo, Japan",Blue,Ancient Egypt,Digital
+29,"Berlin, Germany","New York, USA",Blue,Ancient Egypt,Polaroid
+30,"New York, USA","Tokyo, Japan",Green,Ancient Egypt,Film
+31,"London, UK","New York, USA",Green,Ancient Egypt,Polaroid
+32,"New York, USA","Mumbai, India",Yellow,Renaissance,Polaroid
+33,"Sydney, Australia","Sydney, Australia",Blue,Ancient Egypt,Digital
+34,"Berlin, Germany","Sydney, Australia",Blue,Medieval,Film
+35,"Sydney, Australia","Tokyo, Japan",Red,Ancient Egypt,Film
+36,"Tokyo, Japan","Berlin, Germany",Yellow,World War II,Polaroid
+37,"Tokyo, Japan","Tokyo, Japan",Yellow,Renaissance,Film
+38,"Sydney, Australia","Mumbai, India",Green,Renaissance,Film
+39,"Tokyo, Japan","New York, USA",Red,World War II,Film
+40,"Tokyo, Japan","Tokyo, Japan",Red,World War II,Polaroid
+41,"Berlin, Germany","Mumbai, India",Red,World War II,Film
+42,"London, UK","Sydney, Australia",Green,Renaissance,Film
+43,"Berlin, Germany","Tokyo, Japan",Blue,Renaissance,Digital
+44,"London, UK","Mumbai, India",Blue,World War II,Digital
+45,"Sydney, Australia","London, UK",Blue,Renaissance,Polaroid
+46,"New York, USA","Tokyo, Japan",Green,Ancient Egypt,Polaroid
+47,"Berlin, Germany","London, UK",Yellow,Renaissance,Film
+48,"Sydney, Australia","Mumbai, India",Yellow,Ancient Egypt,Digital
+49,"Mumbai, India","Berlin, Germany",Blue,Medieval,Film
+50,"London, UK","London, UK",Yellow,Ancient Egypt,Film
+51,"Tokyo, Japan","Mumbai, India",Red,Renaissance,Digital
+52,"Sydney, Australia","Mumbai, India",Red,Medieval,Polaroid
+53,"Sydney, Australia","London, UK",Red,Medieval,Film
+54,"Tokyo, Japan","New York, USA",Yellow,Medieval,Polaroid
+55,"Tokyo, Japan","Sydney, Australia",Red,Renaissance,Polaroid
+56,"Berlin, Germany","London, UK",Yellow,Ancient Egypt,Polaroid
+57,"Berlin, Germany","Tokyo, Japan",Green,World War II,Film
+58,"Sydney, Australia","Tokyo, Japan",Green,Medieval,Film
+59,"New York, USA","Mumbai, India",Yellow,Ancient Egypt,Digital
+60,"New York, USA","Mumbai, India",Yellow,Medieval,Film
+61,"London, UK","Berlin, Germany",Green,Ancient Egypt,Polaroid
+62,"Mumbai, India","Mumbai, India",Red,World War II,Digital
+63,"New York, USA","London, UK",Blue,Medieval,Film
+64,"London, UK","New York, USA",Green,World War II,Digital
+65,"Berlin, Germany","London, UK",Red,Renaissance,Film
+66,"Sydney, Australia","Tokyo, Japan",Red,World War II,Film
+67,"New York, USA","Mumbai, India",Green,World War II,Polaroid
+68,"Sydney, Australia","New York, USA",Blue,Renaissance,Digital
+69,"Berlin, Germany","Sydney, Australia",Red,World War II,Digital
+70,"Mumbai, India","New York, USA",Red,Medieval,Polaroid
+71,"Tokyo, Japan","New York, USA",Yellow,Renaissance,Film
+72,"Berlin, Germany","New York, USA",Yellow,World War II,Film
+73,"Mumbai, India","Mumbai, India",Blue,Ancient Egypt,Digital
+74,"Tokyo, Japan","Mumbai, India",Yellow,Ancient Egypt,Digital
+75,"Berlin, Germany","New York, USA",Blue,World War II,Polaroid
+76,"Berlin, Germany","Sydney, Australia",Blue,Medieval,Digital
+77,"Sydney, Australia","New York, USA",Red,Medieval,Polaroid
+78,"Tokyo, Japan","New York, USA",Yellow,World War II,Polaroid
+79,"Tokyo, Japan","Mumbai, India",Green,Renaissance,Polaroid
+80,"Sydney, Australia","Mumbai, India",Yellow,World War II,Digital
+81,"Berlin, Germany","London, UK",Green,World War II,Polaroid
+82,"Mumbai, India","Berlin, Germany",Yellow,Ancient Egypt,Film
+83,"New York, USA","Sydney, Australia",Green,Renaissance,Polaroid
+84,"Sydney, Australia","Tokyo, Japan",Red,Ancient Egypt,Digital
+85,"New York, USA","New York, USA",Yellow,World War II,Polaroid
+86,"New York, USA","New York, USA",Green,Medieval,Digital
+87,"Berlin, Germany","London, UK",Yellow,Renaissance,Digital
+88,"Sydney, Australia","New York, USA",Green,Medieval,Digital
+89,"New York, USA","Sydney, Australia",Blue,Medieval,Film
+90,"Sydney, Australia","Sydney, Australia",Yellow,World War II,Digital
+91,"Sydney, Australia","Mumbai, India",Red,Ancient Egypt,Polaroid
+92,"Tokyo, Japan","Berlin, Germany",Blue,Medieval,Digital
+93,"New York, USA","Mumbai, India",Red,Ancient Egypt,Polaroid
+94,"Mumbai, India","Berlin, Germany",Red,Medieval,Digital
+95,"Berlin, Germany","Mumbai, India",Red,Renaissance,Film
+96,"Sydney, Australia","Sydney, Australia",Yellow,Medieval,Polaroid
+97,"London, UK","New York, USA",Green,Medieval,Polaroid
+98,"New York, USA","Berlin, Germany",Yellow,Ancient Egypt,Film
+99,"London, UK","New York, USA",Blue,World War II,Film
+100,"Sydney, Australia","Tokyo, Japan",Yellow,Medieval,Digital

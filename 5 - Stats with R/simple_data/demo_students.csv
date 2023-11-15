@@ -1,101 +1,101 @@
 student_ID,Hometown,College,Gender,High_school_gpa,City_State,Major
-1,Boston,College B,Female,3.5,Washington DC,Physics
-2,Washington DC,College C,Female,3.93,Los Angeles,Physics
-3,New York City,College A,Prefer not to share,3.11,Los Angeles,Engineering
-4,Boston,College A,Female,2.42,Los Angeles,Engineering
-5,Washington DC,College C,Male,2.44,Boston,Computer Science
-6,Washington DC,College A,Male,2.44,New York City,Computer Science
-7,Washington DC,College A,Female,3.14,Washington DC,Physics
-8,Washington DC,College A,Prefer not to share,2.9,New York City,Mathematics
-9,New York City,College A,Female,3.94,New York City,Computer Science
-10,Washington DC,College A,Female,3.36,Los Angeles,Computer Science
-11,New York City,College A,Female,2.17,New York City,Physics
-12,Los Angeles,College C,Male,2.11,Los Angeles,Mathematics
-13,Boston,College A,Male,2.98,New York City,Engineering
-14,Washington DC,College C,Male,3.76,Washington DC,Mathematics
-15,Los Angeles,College B,Female,3.95,Boston,Physics
-16,Boston,College B,Prefer not to share,3.24,Boston,Mathematics
-17,Boston,College B,Female,3.08,Los Angeles,Physics
-18,Boston,College A,Female,3.71,New York City,Physics
-19,Los Angeles,College B,Male,3.49,New York City,Computer Science
-20,New York City,College B,Male,2.96,New York City,Physics
-21,Los Angeles,College B,Female,3.35,New York City,Mathematics
-22,Washington DC,College A,Prefer not to share,3.21,New York City,Mathematics
-23,Washington DC,College B,Male,3.43,Washington DC,Computer Science
-24,Los Angeles,College C,Prefer not to share,2.94,Boston,Physics
-25,Boston,College A,Prefer not to share,2.91,Los Angeles,Mathematics
-26,New York City,College B,Female,3.81,New York City,Engineering
-27,New York City,College C,Female,2.27,Boston,Computer Science
-28,New York City,College A,Female,2.46,Washington DC,Physics
-29,New York City,College C,Prefer not to share,3.76,Washington DC,Engineering
-30,Boston,College A,Male,3.81,Washington DC,Mathematics
-31,New York City,College B,Male,3.29,Washington DC,Engineering
-32,Boston,College C,Female,2.65,New York City,Engineering
-33,Washington DC,College C,Male,3.04,Boston,Computer Science
-34,Boston,College B,Prefer not to share,2.0,Los Angeles,Engineering
-35,Washington DC,College A,Prefer not to share,2.62,New York City,Engineering
-36,New York City,College B,Male,2.85,Washington DC,Physics
-37,Los Angeles,College B,Prefer not to share,3.77,Washington DC,Engineering
-38,Washington DC,College A,Prefer not to share,3.36,Washington DC,Physics
-39,Washington DC,College C,Prefer not to share,2.91,Washington DC,Mathematics
-40,Boston,College C,Female,2.97,New York City,Computer Science
-41,Los Angeles,College C,Female,3.58,Boston,Engineering
-42,Washington DC,College C,Male,2.46,Los Angeles,Engineering
-43,Boston,College B,Male,3.76,Boston,Physics
-44,New York City,College C,Male,2.63,Boston,Physics
-45,Washington DC,College C,Prefer not to share,3.91,Los Angeles,Computer Science
-46,New York City,College C,Prefer not to share,2.94,Washington DC,Engineering
-47,Washington DC,College C,Female,3.42,Washington DC,Mathematics
-48,Washington DC,College C,Female,2.31,New York City,Computer Science
-49,Los Angeles,College A,Male,3.46,New York City,Engineering
-50,Washington DC,College B,Male,3.29,Boston,Mathematics
-51,Boston,College C,Prefer not to share,2.43,Los Angeles,Engineering
-52,New York City,College C,Female,2.37,Los Angeles,Mathematics
-53,New York City,College B,Female,3.62,New York City,Engineering
-54,New York City,College C,Prefer not to share,3.49,Washington DC,Physics
-55,Washington DC,College B,Male,3.35,New York City,Mathematics
-56,Boston,College A,Female,2.55,Boston,Physics
-57,Washington DC,College C,Female,2.35,New York City,Engineering
-58,Los Angeles,College C,Female,3.41,Washington DC,Mathematics
-59,Boston,College A,Female,2.93,Los Angeles,Physics
-60,Washington DC,College C,Female,3.68,Boston,Mathematics
-61,Washington DC,College A,Prefer not to share,2.41,Washington DC,Mathematics
-62,Los Angeles,College A,Prefer not to share,2.33,Boston,Mathematics
-63,Washington DC,College C,Prefer not to share,2.25,Los Angeles,Computer Science
-64,Los Angeles,College A,Male,3.44,New York City,Physics
-65,Washington DC,College C,Female,2.06,New York City,Mathematics
-66,Boston,College C,Prefer not to share,3.49,Los Angeles,Mathematics
-67,Los Angeles,College C,Female,2.19,New York City,Physics
-68,Boston,College A,Female,2.43,New York City,Mathematics
-69,Boston,College A,Female,3.5,Boston,Mathematics
-70,Boston,College A,Female,3.46,New York City,Computer Science
-71,New York City,College B,Male,2.09,New York City,Engineering
-72,New York City,College C,Prefer not to share,2.42,Los Angeles,Computer Science
-73,Los Angeles,College A,Prefer not to share,2.57,Washington DC,Physics
-74,Boston,College B,Male,3.35,Los Angeles,Mathematics
-75,Boston,College C,Female,2.13,Los Angeles,Computer Science
-76,New York City,College C,Female,3.11,Los Angeles,Computer Science
-77,Washington DC,College C,Male,2.02,Los Angeles,Mathematics
-78,Boston,College B,Male,3.67,Washington DC,Physics
-79,New York City,College A,Male,3.97,Los Angeles,Engineering
-80,Los Angeles,College A,Prefer not to share,3.41,Boston,Physics
-81,Los Angeles,College A,Female,2.36,New York City,Mathematics
-82,Washington DC,College A,Prefer not to share,3.02,Boston,Mathematics
-83,Boston,College C,Female,3.16,New York City,Engineering
-84,New York City,College C,Prefer not to share,3.58,Washington DC,Engineering
-85,New York City,College A,Male,3.21,Washington DC,Mathematics
-86,Washington DC,College A,Prefer not to share,2.44,Los Angeles,Physics
-87,New York City,College A,Male,2.91,Washington DC,Engineering
-88,New York City,College B,Female,3.76,New York City,Mathematics
-89,Washington DC,College C,Female,2.98,Washington DC,Engineering
-90,Los Angeles,College A,Female,3.43,Boston,Physics
-91,Washington DC,College A,Male,2.97,New York City,Mathematics
-92,Washington DC,College B,Male,3.42,Washington DC,Physics
-93,Los Angeles,College A,Male,3.0,Washington DC,Computer Science
-94,Los Angeles,College C,Male,3.69,Washington DC,Engineering
-95,Washington DC,College B,Male,2.39,New York City,Engineering
-96,Boston,College B,Male,3.55,Los Angeles,Mathematics
-97,Los Angeles,College B,Female,3.95,Washington DC,Mathematics
-98,Washington DC,College A,Male,3.72,Washington DC,Computer Science
-99,New York City,College A,Prefer not to share,3.56,Boston,Mathematics
-100,Boston,College A,Prefer not to share,3.97,Los Angeles,Engineering
+1,Boston,College B,Female,3.5,"Boston, Massachusetts",Physics
+2,Washington DC,College C,Female,3.93,"Washington DC, District of Columbia",Physics
+3,New York City,College A,Prefer not to share,3.11,"New York City, New York",Engineering
+4,Boston,College A,Female,2.42,"Boston, Massachusetts",Engineering
+5,Washington DC,College C,Male,2.44,"Washington DC, District of Columbia",Computer Science
+6,Washington DC,College A,Male,2.44,"Washington DC, District of Columbia",Computer Science
+7,Washington DC,College A,Female,3.14,"Washington DC, District of Columbia",Physics
+8,Washington DC,College A,Prefer not to share,2.9,"Washington DC, District of Columbia",Mathematics
+9,New York City,College A,Female,3.94,"New York City, New York",Computer Science
+10,Washington DC,College A,Female,3.36,"Washington DC, District of Columbia",Computer Science
+11,New York City,College A,Female,2.17,"New York City, New York",Physics
+12,Los Angeles,College C,Male,2.11,"Los Angeles, California",Mathematics
+13,Boston,College A,Male,2.98,"Boston, Massachusetts",Engineering
+14,Washington DC,College C,Male,3.76,"Washington DC, District of Columbia",Mathematics
+15,Los Angeles,College B,Female,3.95,"Los Angeles, California",Physics
+16,Boston,College B,Prefer not to share,3.24,"Boston, Massachusetts",Mathematics
+17,Boston,College B,Female,3.08,"Boston, Massachusetts",Physics
+18,Boston,College A,Female,3.71,"Boston, Massachusetts",Physics
+19,Los Angeles,College B,Male,3.49,"Los Angeles, California",Computer Science
+20,New York City,College B,Male,2.96,"New York City, New York",Physics
+21,Los Angeles,College B,Female,3.35,"Los Angeles, California",Mathematics
+22,Washington DC,College A,Prefer not to share,3.21,"Washington DC, District of Columbia",Mathematics
+23,Washington DC,College B,Male,3.43,"Washington DC, District of Columbia",Computer Science
+24,Los Angeles,College C,Prefer not to share,2.94,"Los Angeles, California",Physics
+25,Boston,College A,Prefer not to share,2.91,"Boston, Massachusetts",Mathematics
+26,New York City,College B,Female,3.81,"New York City, New York",Engineering
+27,New York City,College C,Female,2.27,"New York City, New York",Computer Science
+28,New York City,College A,Female,2.46,"New York City, New York",Physics
+29,New York City,College C,Prefer not to share,3.76,"New York City, New York",Engineering
+30,Boston,College A,Male,3.81,"Boston, Massachusetts",Mathematics
+31,New York City,College B,Male,3.29,"New York City, New York",Engineering
+32,Boston,College C,Female,2.65,"Boston, Massachusetts",Engineering
+33,Washington DC,College C,Male,3.04,"Washington DC, District of Columbia",Computer Science
+34,Boston,College B,Prefer not to share,2.0,"Boston, Massachusetts",Engineering
+35,Washington DC,College A,Prefer not to share,2.62,"Washington DC, District of Columbia",Engineering
+36,New York City,College B,Male,2.85,"New York City, New York",Physics
+37,Los Angeles,College B,Prefer not to share,3.77,"Los Angeles, California",Engineering
+38,Washington DC,College A,Prefer not to share,3.36,"Washington DC, District of Columbia",Physics
+39,Washington DC,College C,Prefer not to share,2.91,"Washington DC, District of Columbia",Mathematics
+40,Boston,College C,Female,2.97,"Boston, Massachusetts",Computer Science
+41,Los Angeles,College C,Female,3.58,"Los Angeles, California",Engineering
+42,Washington DC,College C,Male,2.46,"Washington DC, District of Columbia",Engineering
+43,Boston,College B,Male,3.76,"Boston, Massachusetts",Physics
+44,New York City,College C,Male,2.63,"New York City, New York",Physics
+45,Washington DC,College C,Prefer not to share,3.91,"Washington DC, District of Columbia",Computer Science
+46,New York City,College C,Prefer not to share,2.94,"New York City, New York",Engineering
+47,Washington DC,College C,Female,3.42,"Washington DC, District of Columbia",Mathematics
+48,Washington DC,College C,Female,2.31,"Washington DC, District of Columbia",Computer Science
+49,Los Angeles,College A,Male,3.46,"Los Angeles, California",Engineering
+50,Washington DC,College B,Male,3.29,"Washington DC, District of Columbia",Mathematics
+51,Boston,College C,Prefer not to share,2.43,"Boston, Massachusetts",Engineering
+52,New York City,College C,Female,2.37,"New York City, New York",Mathematics
+53,New York City,College B,Female,3.62,"New York City, New York",Engineering
+54,New York City,College C,Prefer not to share,3.49,"New York City, New York",Physics
+55,Washington DC,College B,Male,3.35,"Washington DC, District of Columbia",Mathematics
+56,Boston,College A,Female,2.55,"Boston, Massachusetts",Physics
+57,Washington DC,College C,Female,2.35,"Washington DC, District of Columbia",Engineering
+58,Los Angeles,College C,Female,3.41,"Los Angeles, California",Mathematics
+59,Boston,College A,Female,2.93,"Boston, Massachusetts",Physics
+60,Washington DC,College C,Female,3.68,"Washington DC, District of Columbia",Mathematics
+61,Washington DC,College A,Prefer not to share,2.41,"Washington DC, District of Columbia",Mathematics
+62,Los Angeles,College A,Prefer not to share,2.33,"Los Angeles, California",Mathematics
+63,Washington DC,College C,Prefer not to share,2.25,"Washington DC, District of Columbia",Computer Science
+64,Los Angeles,College A,Male,3.44,"Los Angeles, California",Physics
+65,Washington DC,College C,Female,2.06,"Washington DC, District of Columbia",Mathematics
+66,Boston,College C,Prefer not to share,3.49,"Boston, Massachusetts",Mathematics
+67,Los Angeles,College C,Female,2.19,"Los Angeles, California",Physics
+68,Boston,College A,Female,2.43,"Boston, Massachusetts",Mathematics
+69,Boston,College A,Female,3.5,"Boston, Massachusetts",Mathematics
+70,Boston,College A,Female,3.46,"Boston, Massachusetts",Computer Science
+71,New York City,College B,Male,2.09,"New York City, New York",Engineering
+72,New York City,College C,Prefer not to share,2.42,"New York City, New York",Computer Science
+73,Los Angeles,College A,Prefer not to share,2.57,"Los Angeles, California",Physics
+74,Boston,College B,Male,3.35,"Boston, Massachusetts",Mathematics
+75,Boston,College C,Female,2.13,"Boston, Massachusetts",Computer Science
+76,New York City,College C,Female,3.11,"New York City, New York",Computer Science
+77,Washington DC,College C,Male,2.02,"Washington DC, District of Columbia",Mathematics
+78,Boston,College B,Male,3.67,"Boston, Massachusetts",Physics
+79,New York City,College A,Male,3.97,"New York City, New York",Engineering
+80,Los Angeles,College A,Prefer not to share,3.41,"Los Angeles, California",Physics
+81,Los Angeles,College A,Female,2.36,"Los Angeles, California",Mathematics
+82,Washington DC,College A,Prefer not to share,3.02,"Washington DC, District of Columbia",Mathematics
+83,Boston,College C,Female,3.16,"Boston, Massachusetts",Engineering
+84,New York City,College C,Prefer not to share,3.58,"New York City, New York",Engineering
+85,New York City,College A,Male,3.21,"New York City, New York",Mathematics
+86,Washington DC,College A,Prefer not to share,2.44,"Washington DC, District of Columbia",Physics
+87,New York City,College A,Male,2.91,"New York City, New York",Engineering
+88,New York City,College B,Female,3.76,"New York City, New York",Mathematics
+89,Washington DC,College C,Female,2.98,"Washington DC, District of Columbia",Engineering
+90,Los Angeles,College A,Female,3.43,"Los Angeles, California",Physics
+91,Washington DC,College A,Male,2.97,"Washington DC, District of Columbia",Mathematics
+92,Washington DC,College B,Male,3.42,"Washington DC, District of Columbia",Physics
+93,Los Angeles,College A,Male,3.0,"Los Angeles, California",Computer Science
+94,Los Angeles,College C,Male,3.69,"Los Angeles, California",Engineering
+95,Washington DC,College B,Male,2.39,"Washington DC, District of Columbia",Engineering
+96,Boston,College B,Male,3.55,"Boston, Massachusetts",Mathematics
+97,Los Angeles,College B,Female,3.95,"Los Angeles, California",Mathematics
+98,Washington DC,College A,Male,3.72,"Washington DC, District of Columbia",Computer Science
+99,New York City,College A,Prefer not to share,3.56,"New York City, New York",Mathematics
+100,Boston,College A,Prefer not to share,3.97,"Boston, Massachusetts",Engineering

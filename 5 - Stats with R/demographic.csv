@@ -1,0 +1,201 @@
+Participant_ID,Age,Gender,Relationship_Status,Preferred_Camera
+1,40,Female,Single,Professional Camera
+2,19,Non-Binary,In a Relationship,Professional Camera
+3,40,Male,Married,Professional Camera
+4,49,Male,Married,Phone Camera
+5,42,Male,In a Relationship,Phone Camera
+6,35,Male,Single,Professional Camera
+7,36,Male,Single,Phone Camera
+8,54,Male,In a Relationship,Phone Camera
+9,58,Female,In a Relationship,Professional Camera
+10,47,Female,Widowed,Phone Camera
+11,36,Non-Binary,Widowed,Professional Camera
+12,48,Female,Married,Professional Camera
+13,18,Female,Divorced,Phone Camera
+14,63,Female,In a Relationship,Phone Camera
+15,21,Male,In a Relationship,Phone Camera
+16,18,Male,Single,Phone Camera
+17,26,Non-Binary,In a Relationship,Professional Camera
+18,44,Non-Binary,Married,Phone Camera
+19,53,Male,In a Relationship,Phone Camera
+20,47,Non-Binary,Single,Professional Camera
+21,43,Male,In a Relationship,Phone Camera
+22,37,Male,Widowed,Phone Camera
+23,37,Male,Married,Professional Camera
+24,52,Non-Binary,Divorced,Professional Camera
+25,60,Female,Single,Phone Camera
+26,45,Male,Widowed,Phone Camera
+27,49,Male,Single,Phone Camera
+28,43,Male,Single,Professional Camera
+29,37,Male,Divorced,Professional Camera
+30,54,Non-Binary,In a Relationship,Professional Camera
+31,46,Female,In a Relationship,Phone Camera
+32,55,Female,In a Relationship,Professional Camera
+33,46,Female,Married,Phone Camera
+34,37,Female,Single,Professional Camera
+35,23,Non-Binary,Married,Phone Camera
+36,44,Non-Binary,Single,Professional Camera
+37,30,Non-Binary,Divorced,Phone Camera
+38,42,Female,Divorced,Professional Camera
+39,40,Male,Married,Phone Camera
+40,45,Female,Widowed,Phone Camera
+41,62,Non-Binary,Divorced,Professional Camera
+42,20,Female,Single,Professional Camera
+43,34,Non-Binary,Divorced,Phone Camera
+44,39,Non-Binary,Divorced,Professional Camera
+45,20,Female,Married,Professional Camera
+46,19,Male,Married,Phone Camera
+47,44,Non-Binary,Divorced,Professional Camera
+48,33,Female,Single,Phone Camera
+49,40,Male,Widowed,Phone Camera
+50,38,Non-Binary,Widowed,Phone Camera
+51,62,Non-Binary,In a Relationship,Phone Camera
+52,32,Male,Married,Phone Camera
+53,48,Male,Single,Phone Camera
+54,30,Female,Divorced,Phone Camera
+55,20,Non-Binary,Married,Professional Camera
+56,55,Female,Widowed,Phone Camera
+57,65,Non-Binary,In a Relationship,Phone Camera
+58,42,Female,Widowed,Phone Camera
+59,35,Male,Divorced,Phone Camera
+60,54,Female,In a Relationship,Phone Camera
+61,45,Non-Binary,Divorced,Phone Camera
+62,57,Female,In a Relationship,Phone Camera
+63,29,Female,Married,Phone Camera
+64,47,Female,Widowed,Phone Camera
+65,46,Male,Single,Professional Camera
+66,23,Male,In a Relationship,Professional Camera
+67,25,Male,In a Relationship,Phone Camera
+68,58,Male,Married,Professional Camera
+69,54,Non-Binary,Widowed,Phone Camera
+70,59,Non-Binary,Single,Professional Camera
+71,40,Female,Widowed,Professional Camera
+72,26,Male,Married,Professional Camera
+73,54,Male,Divorced,Professional Camera
+74,62,Female,Divorced,Professional Camera
+75,42,Male,Widowed,Phone Camera
+76,32,Male,Married,Phone Camera
+77,38,Female,Married,Phone Camera
+78,31,Male,Widowed,Professional Camera
+79,21,Non-Binary,In a Relationship,Professional Camera
+80,62,Non-Binary,In a Relationship,Phone Camera
+81,41,Male,Divorced,Professional Camera
+82,55,Male,In a Relationship,Professional Camera
+83,47,Male,In a Relationship,Professional Camera
+84,64,Male,Divorced,Phone Camera
+85,18,Female,Widowed,Phone Camera
+86,29,Female,Single,Phone Camera
+87,41,Female,In a Relationship,Professional Camera
+88,40,Male,Single,Phone Camera
+89,25,Female,In a Relationship,Professional Camera
+90,28,Female,Single,Professional Camera
+91,51,Male,Single,Professional Camera
+92,28,Non-Binary,Single,Phone Camera
+93,47,Male,Single,Professional Camera
+94,44,Male,Widowed,Professional Camera
+95,61,Female,Divorced,Professional Camera
+96,31,Male,Widowed,Professional Camera
+97,45,Non-Binary,Single,Professional Camera
+98,37,Female,In a Relationship,Professional Camera
+99,33,Non-Binary,Married,Professional Camera
+100,23,Non-Binary,Widowed,Phone Camera
+101,38,Female,Divorced,Professional Camera
+102,57,Non-Binary,Widowed,Phone Camera
+103,36,Non-Binary,Single,Phone Camera
+104,51,Non-Binary,Single,Professional Camera
+105,57,Non-Binary,Divorced,Phone Camera
+106,53,Non-Binary,Single,Phone Camera
+107,54,Female,Divorced,Phone Camera
+108,39,Non-Binary,Married,Professional Camera
+109,57,Male,Single,Phone Camera
+110,43,Male,In a Relationship,Phone Camera
+111,40,Non-Binary,Widowed,Phone Camera
+112,36,Non-Binary,In a Relationship,Phone Camera
+113,44,Female,Married,Phone Camera
+114,60,Non-Binary,Single,Phone Camera
+115,45,Non-Binary,Widowed,Professional Camera
+116,33,Male,Widowed,Phone Camera
+117,37,Non-Binary,Widowed,Phone Camera
+118,39,Female,Married,Professional Camera
+119,34,Female,Married,Phone Camera
+120,36,Non-Binary,In a Relationship,Professional Camera
+121,65,Male,Widowed,Phone Camera
+122,32,Male,Married,Phone Camera
+123,37,Non-Binary,Single,Professional Camera
+124,63,Male,Divorced,Professional Camera
+125,34,Non-Binary,Single,Phone Camera
+126,22,Non-Binary,In a Relationship,Phone Camera
+127,37,Female,In a Relationship,Professional Camera
+128,57,Female,In a Relationship,Professional Camera
+129,25,Female,Divorced,Phone Camera
+130,43,Male,Divorced,Professional Camera
+131,54,Female,Married,Professional Camera
+132,56,Female,In a Relationship,Phone Camera
+133,55,Male,In a Relationship,Phone Camera
+134,33,Male,Widowed,Phone Camera
+135,56,Female,Divorced,Phone Camera
+136,33,Male,In a Relationship,Phone Camera
+137,63,Female,In a Relationship,Phone Camera
+138,34,Male,Single,Phone Camera
+139,35,Male,Married,Professional Camera
+140,55,Male,Married,Professional Camera
+141,46,Non-Binary,In a Relationship,Professional Camera
+142,36,Female,In a Relationship,Phone Camera
+143,32,Male,Single,Phone Camera
+144,54,Male,Divorced,Phone Camera
+145,35,Male,In a Relationship,Phone Camera
+146,44,Non-Binary,Divorced,Phone Camera
+147,34,Non-Binary,Married,Professional Camera
+148,19,Female,Married,Phone Camera
+149,51,Female,Widowed,Phone Camera
+150,61,Female,Divorced,Professional Camera
+151,60,Female,In a Relationship,Phone Camera
+152,62,Male,In a Relationship,Professional Camera
+153,53,Female,Single,Phone Camera
+154,28,Female,Widowed,Phone Camera
+155,27,Non-Binary,In a Relationship,Phone Camera
+156,32,Male,In a Relationship,Professional Camera
+157,21,Male,Married,Phone Camera
+158,55,Male,Married,Professional Camera
+159,39,Male,Married,Phone Camera
+160,50,Non-Binary,Divorced,Professional Camera
+161,44,Male,Single,Phone Camera
+162,26,Non-Binary,Married,Phone Camera
+163,56,Male,Widowed,Phone Camera
+164,64,Male,Widowed,Professional Camera
+165,48,Male,Divorced,Phone Camera
+166,64,Male,Widowed,Professional Camera
+167,31,Male,Widowed,Phone Camera
+168,54,Female,Widowed,Phone Camera
+169,60,Female,Married,Phone Camera
+170,52,Non-Binary,Single,Professional Camera
+171,59,Male,Married,Professional Camera
+172,51,Male,Divorced,Professional Camera
+173,55,Male,Single,Phone Camera
+174,35,Male,In a Relationship,Professional Camera
+175,24,Male,Single,Professional Camera
+176,33,Male,Married,Phone Camera
+177,28,Male,Widowed,Phone Camera
+178,24,Male,Divorced,Phone Camera
+179,18,Female,Widowed,Phone Camera
+180,54,Female,Married,Professional Camera
+181,46,Female,Single,Phone Camera
+182,26,Female,Widowed,Phone Camera
+183,21,Male,Married,Professional Camera
+184,62,Non-Binary,In a Relationship,Professional Camera
+185,29,Non-Binary,Divorced,Phone Camera
+186,25,Male,Divorced,Professional Camera
+187,48,Non-Binary,Married,Phone Camera
+188,20,Female,Widowed,Professional Camera
+189,48,Female,In a Relationship,Phone Camera
+190,38,Female,Divorced,Professional Camera
+191,37,Male,Divorced,Professional Camera
+192,51,Female,In a Relationship,Phone Camera
+193,40,Female,In a Relationship,Phone Camera
+194,30,Male,Widowed,Professional Camera
+195,36,Female,Married,Professional Camera
+196,58,Non-Binary,Divorced,Phone Camera
+197,63,Non-Binary,In a Relationship,Phone Camera
+198,44,Female,Married,Phone Camera
+199,41,Female,In a Relationship,Phone Camera
+200,39,Male,Divorced,Phone Camera

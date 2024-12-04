@@ -1,0 +1,161 @@
+Student_ID,Gender,Hometown,High_School_GPA,Study-Abroad_Aspirations,Major_Category
+1,Female,Seattle,3.8,Yes,Languages Major
+2,Male,Denver,3.4,No,Languages Major
+3,Nonbinary,Chicago,3.7,Yes,Languages Major
+4,Female,San Francisco,3.6,Yes,Languages Major
+5,Male,Chicago,3.71,No,Non-Languages Major
+6,Nonbinary,San Francisco,3.51,Yes,Non-Languages Major
+7,Female,Seattle,3.87,No,Languages Major
+8,Nonbinary,Seattle,3.29,No,Languages Major
+9,Nonbinary,Denver,3.35,Yes,Languages Major
+10,Nonbinary,Denver,2.75,No,Non-Languages Major
+11,Nonbinary,Seattle,3.78,Yes,Non-Languages Major
+12,Male,Denver,3.59,No,Languages Major
+13,Female,Chicago,3,No,Languages Major
+14,Nonbinary,Seattle,2.97,Yes,Languages Major
+15,Male,Denver,3.24,Yes,Languages Major
+16,Female,Seattle,3.74,No,Non-Languages Major
+17,Female,San Francisco,3.41,No,Languages Major
+18,Female,Boston,3.26,No,Languages Major
+19,Female,Seattle,3.2,Yes,Languages Major
+20,Nonbinary,Boston,3.18,No,Languages Major
+21,Nonbinary,Denver,2.92,Yes,Non-Languages Major
+22,Male,Boston,3.14,Yes,Languages Major
+23,Male,Seattle,3.18,No,Non-Languages Major
+24,Male,San Francisco,3.7,Yes,Languages Major
+25,Female,Denver,3.45,No,Languages Major
+26,Female,Seattle,3.25,No,Non-Languages Major
+27,Nonbinary,Denver,4.19,No,Languages Major
+28,Female,Chicago,3.3,No,Non-Languages Major
+29,Female,Boston,3.85,No,Non-Languages Major
+30,Female,Chicago,3.99,Yes,Languages Major
+31,Male,Seattle,3.03,Yes,Non-Languages Major
+32,Male,San Francisco,3.52,No,Non-Languages Major
+33,Nonbinary,Denver,3.34,No,Non-Languages Major
+34,Female,Boston,3.32,Yes,Non-Languages Major
+35,Female,Denver,3.67,Yes,Non-Languages Major
+36,Nonbinary,Seattle,3.31,Yes,Non-Languages Major
+37,Female,Denver,3.35,Yes,Non-Languages Major
+38,Female,Boston,3.45,No,Non-Languages Major
+39,Male,Seattle,3.39,No,Languages Major
+40,Nonbinary,Denver,3.15,Yes,Languages Major
+41,Nonbinary,San Francisco,3.74,No,Non-Languages Major
+42,Nonbinary,Seattle,3.81,Yes,Languages Major
+43,Nonbinary,Seattle,3.6,No,Non-Languages Major
+44,Male,San Francisco,3.39,Yes,Non-Languages Major
+45,Male,Chicago,3.29,No,Languages Major
+46,Female,Boston,3.29,Yes,Non-Languages Major
+47,Female,Chicago,4.21,Yes,Non-Languages Major
+48,Female,Denver,3.78,No,Non-Languages Major
+49,Female,San Francisco,3.25,Yes,Non-Languages Major
+50,Male,Chicago,3.55,No,Languages Major
+51,Nonbinary,Seattle,3.39,No,Non-Languages Major
+52,Male,Denver,3.68,Yes,Non-Languages Major
+53,Female,Denver,3.66,No,Non-Languages Major
+54,Male,Chicago,3.83,No,Languages Major
+55,Nonbinary,Chicago,3.24,No,Non-Languages Major
+56,Nonbinary,San Francisco,3.53,No,Languages Major
+57,Male,Boston,2.98,No,Languages Major
+58,Male,Chicago,3.12,Yes,Non-Languages Major
+59,Male,Chicago,3.77,No,Non-Languages Major
+60,Female,Seattle,3.21,No,Languages Major
+61,Male,Denver,3.25,No,Non-Languages Major
+62,Male,Boston,3.5,No,Languages Major
+63,Male,Seattle,3.71,No,Languages Major
+64,Nonbinary,San Francisco,3.18,Yes,Non-Languages Major
+65,Nonbinary,San Francisco,2.46,No,Non-Languages Major
+66,Female,Chicago,3.24,Yes,Languages Major
+67,Female,Chicago,3.86,Yes,Languages Major
+68,Nonbinary,San Francisco,3.6,Yes,Languages Major
+69,Nonbinary,Chicago,3.9,Yes,Languages Major
+70,Nonbinary,Boston,3.16,No,Non-Languages Major
+71,Male,Chicago,3.01,Yes,Non-Languages Major
+72,Male,Denver,3.64,Yes,Non-Languages Major
+73,Nonbinary,Chicago,3.57,No,Non-Languages Major
+74,Male,Seattle,3.59,No,Non-Languages Major
+75,Male,Boston,3.78,No,Languages Major
+76,Female,Seattle,3.63,Yes,Non-Languages Major
+77,Nonbinary,Seattle,3.62,No,Non-Languages Major
+78,Nonbinary,Denver,3.71,No,Non-Languages Major
+79,Male,Boston,3.65,Yes,Non-Languages Major
+80,Nonbinary,Boston,3.76,No,Non-Languages Major
+81,Female,Boston,3.8,No,Languages Major
+82,Female,Boston,3.96,No,Languages Major
+83,Female,Boston,3.31,No,Languages Major
+84,Nonbinary,Denver,3.64,Yes,Non-Languages Major
+85,Nonbinary,Chicago,3.39,No,Languages Major
+86,Nonbinary,Seattle,3.25,No,Languages Major
+87,Nonbinary,Boston,3.29,Yes,Non-Languages Major
+88,Nonbinary,Chicago,3.65,No,Non-Languages Major
+89,Female,Chicago,3.63,Yes,Non-Languages Major
+90,Male,Seattle,3.62,No,Languages Major
+91,Female,Denver,3.43,Yes,Languages Major
+92,Nonbinary,San Francisco,3.5,Yes,Non-Languages Major
+93,Female,San Francisco,3.75,Yes,Non-Languages Major
+94,Nonbinary,Chicago,3.05,Yes,Languages Major
+95,Nonbinary,Seattle,3.51,No,Languages Major
+96,Female,San Francisco,3.53,Yes,Non-Languages Major
+97,Nonbinary,Chicago,3.73,No,Non-Languages Major
+98,Male,Denver,3.09,Yes,Languages Major
+99,Nonbinary,San Francisco,3.95,Yes,Non-Languages Major
+100,Male,Chicago,3.56,Yes,Languages Major
+101,Male,Chicago,3.58,No,Languages Major
+102,Nonbinary,Boston,3.38,Yes,Languages Major
+103,Female,Denver,3.66,No,Languages Major
+104,Male,Boston,3.51,No,Non-Languages Major
+105,Female,Seattle,3.86,No,Non-Languages Major
+106,Male,Boston,3.07,No,Languages Major
+107,Nonbinary,Boston,3.55,No,Languages Major
+108,Nonbinary,San Francisco,3.62,No,Languages Major
+109,Male,Chicago,3.44,No,Languages Major
+110,Nonbinary,Denver,3.38,No,Languages Major
+111,Male,Boston,3.39,No,Non-Languages Major
+112,Nonbinary,Denver,3.55,Yes,Non-Languages Major
+113,Female,Boston,2.96,Yes,Non-Languages Major
+114,Nonbinary,Seattle,3.79,Yes,Non-Languages Major
+115,Female,Boston,3.36,Yes,Languages Major
+116,Nonbinary,San Francisco,3.54,Yes,Languages Major
+117,Female,Chicago,3.61,No,Languages Major
+118,Nonbinary,Seattle,3.34,No,Languages Major
+119,Female,Boston,3.46,No,Languages Major
+120,Male,Denver,2.89,No,Non-Languages Major
+121,Male,Seattle,3.72,No,Languages Major
+122,Female,Seattle,3.82,No,Non-Languages Major
+123,Nonbinary,Boston,2.99,No,Non-Languages Major
+124,Female,Seattle,3.38,Yes,Non-Languages Major
+125,Nonbinary,Denver,3.13,Yes,Non-Languages Major
+126,Male,Seattle,3.45,Yes,Languages Major
+127,Nonbinary,Denver,3.69,Yes,Non-Languages Major
+128,Male,Boston,3.8,No,Non-Languages Major
+129,Nonbinary,Chicago,3.84,No,Non-Languages Major
+130,Nonbinary,Seattle,3.89,No,Languages Major
+131,Nonbinary,Chicago,3.43,Yes,Languages Major
+132,Female,Denver,3.16,No,Languages Major
+133,Female,Seattle,3.47,No,Non-Languages Major
+134,Male,San Francisco,3.69,No,Non-Languages Major
+135,Male,Chicago,3.13,Yes,Languages Major
+136,Female,Seattle,4,No,Non-Languages Major
+137,Male,Chicago,3.77,Yes,Languages Major
+138,Female,Seattle,3.44,Yes,Languages Major
+139,Nonbinary,Boston,3.29,Yes,Non-Languages Major
+140,Male,Chicago,3.3,Yes,Non-Languages Major
+141,Male,San Francisco,3.52,No,Non-Languages Major
+142,Female,San Francisco,3.43,Yes,Non-Languages Major
+143,Male,Denver,3.79,Yes,Languages Major
+144,Male,Seattle,3.4,No,Languages Major
+145,Nonbinary,Chicago,3.65,No,Languages Major
+146,Male,Denver,3.49,Yes,Languages Major
+147,Nonbinary,Chicago,3.58,No,Languages Major
+148,Female,Seattle,3.43,Yes,Non-Languages Major
+149,Male,San Francisco,3.71,Yes,Languages Major
+150,Nonbinary,Boston,3.72,Yes,Languages Major
+151,Female,San Francisco,3.64,Yes,Languages Major
+152,Male,Denver,3.68,No,Non-Languages Major
+153,Female,Boston,3.22,Yes,Non-Languages Major
+154,Male,Denver,3.6,No,Non-Languages Major
+155,Female,Seattle,3.87,No,Non-Languages Major
+156,Female,Boston,3.65,No,Languages Major
+157,Nonbinary,Denver,3.19,No,Languages Major
+158,Female,Seattle,3.49,Yes,Non-Languages Major
+159,Male,San Francisco,3.61,No,Non-Languages Major
+160,Male,Seattle,3.27,Yes,Languages Major

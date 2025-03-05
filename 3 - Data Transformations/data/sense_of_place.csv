@@ -1,0 +1,301 @@
+Participant_ID,Social_Media_Condition,Location,Descriptive_Rating
+1,No Social Media (Control),Market Square,8
+2,Algorithm-Driven Feed,Library,5
+3,No Social Media (Control),Market Square,9
+4,No Social Media (Control),Market Square,10
+5,Algorithm-Driven Feed,Library,6
+6,Algorithm-Driven Feed,Market Square,8
+7,No Social Media (Control),Library,6
+8,Following Feed,Market Square,5
+9,No Social Media (Control),Library,6
+10,No Social Media (Control),Market Square,6
+11,No Social Media (Control),Library,7
+12,No Social Media (Control),Library,6
+13,Algorithm-Driven Feed,Library,7
+14,No Social Media (Control),Library,5
+15,Following Feed,Library,7
+16,Algorithm-Driven Feed,Market Square,5
+17,Following Feed,Market Square,4
+18,Following Feed,Market Square,5
+19,Following Feed,Library,8
+20,Following Feed,Market Square,6
+21,Algorithm-Driven Feed,Library,6
+22,Algorithm-Driven Feed,Library,5
+23,Following Feed,Market Square,6
+24,Following Feed,Market Square,5
+25,Algorithm-Driven Feed,Library,5
+26,Algorithm-Driven Feed,Market Square,7
+27,Algorithm-Driven Feed,Library,8
+28,No Social Media (Control),Library,4
+29,No Social Media (Control),Library,9
+30,No Social Media (Control),Library,8
+31,Following Feed,Library,4
+32,No Social Media (Control),Market Square,7
+33,Following Feed,Market Square,8
+34,Following Feed,Library,5
+35,No Social Media (Control),Library,5
+36,Following Feed,Market Square,7
+37,No Social Media (Control),Market Square,10
+38,No Social Media (Control),Library,8
+39,Algorithm-Driven Feed,Market Square,5
+40,No Social Media (Control),Library,5
+41,Algorithm-Driven Feed,Market Square,6
+42,No Social Media (Control),Library,10
+43,No Social Media (Control),Market Square,6
+44,Algorithm-Driven Feed,Library,4
+45,Algorithm-Driven Feed,Market Square,7
+46,No Social Media (Control),Market Square,8
+47,Following Feed,Library,5
+48,Algorithm-Driven Feed,Market Square,9
+49,Following Feed,Library,4
+50,Following Feed,Market Square,6
+51,Following Feed,Library,5
+52,Algorithm-Driven Feed,Market Square,5
+53,Following Feed,Library,3
+54,Algorithm-Driven Feed,Market Square,6
+55,Following Feed,Library,8
+56,No Social Media (Control),Market Square,9
+57,No Social Media (Control),Library,7
+58,Algorithm-Driven Feed,Library,5
+59,No Social Media (Control),Library,7
+60,No Social Media (Control),Market Square,10
+61,Following Feed,Library,4
+62,Algorithm-Driven Feed,Market Square,4
+63,Following Feed,Library,3
+64,Following Feed,Market Square,6
+65,Following Feed,Library,7
+66,Following Feed,Market Square,6
+67,Following Feed,Market Square,6
+68,Following Feed,Library,6
+69,Following Feed,Market Square,6
+70,Algorithm-Driven Feed,Market Square,7
+71,No Social Media (Control),Library,9
+72,Following Feed,Market Square,5
+73,Following Feed,Market Square,2
+74,Following Feed,Market Square,5
+75,Following Feed,Library,3
+76,Following Feed,Market Square,7
+77,Following Feed,Library,4
+78,No Social Media (Control),Market Square,5
+79,No Social Media (Control),Market Square,7
+80,Following Feed,Market Square,4
+81,No Social Media (Control),Library,9
+82,Algorithm-Driven Feed,Market Square,7
+83,Following Feed,Market Square,7
+84,Algorithm-Driven Feed,Library,6
+85,Algorithm-Driven Feed,Market Square,7
+86,Following Feed,Library,7
+87,No Social Media (Control),Library,6
+88,Algorithm-Driven Feed,Market Square,4
+89,Following Feed,Library,4
+90,Algorithm-Driven Feed,Market Square,6
+91,Algorithm-Driven Feed,Library,1
+92,Algorithm-Driven Feed,Library,7
+93,Algorithm-Driven Feed,Market Square,3
+94,No Social Media (Control),Library,8
+95,Algorithm-Driven Feed,Library,5
+96,Algorithm-Driven Feed,Library,5
+97,Algorithm-Driven Feed,Library,4
+98,No Social Media (Control),Library,7
+99,Algorithm-Driven Feed,Market Square,5
+100,Algorithm-Driven Feed,Library,4
+101,No Social Media (Control),Market Square,7
+102,No Social Media (Control),Library,9
+103,No Social Media (Control),Market Square,9
+104,Algorithm-Driven Feed,Market Square,6
+105,No Social Media (Control),Library,6
+106,No Social Media (Control),Library,7
+107,Algorithm-Driven Feed,Library,4
+108,No Social Media (Control),Market Square,7
+109,Algorithm-Driven Feed,Library,3
+110,Following Feed,Market Square,8
+111,No Social Media (Control),Market Square,7
+112,Following Feed,Market Square,5
+113,Algorithm-Driven Feed,Library,3
+114,No Social Media (Control),Library,6
+115,Algorithm-Driven Feed,Market Square,5
+116,Following Feed,Market Square,6
+117,Algorithm-Driven Feed,Library,4
+118,No Social Media (Control),Market Square,6
+119,No Social Media (Control),Library,5
+120,Following Feed,Market Square,7
+121,Algorithm-Driven Feed,Library,5
+122,No Social Media (Control),Market Square,9
+123,Following Feed,Library,6
+124,No Social Media (Control),Market Square,8
+125,No Social Media (Control),Library,5
+126,Algorithm-Driven Feed,Library,5
+127,No Social Media (Control),Market Square,10
+128,Algorithm-Driven Feed,Market Square,5
+129,No Social Media (Control),Library,8
+130,Following Feed,Market Square,6
+131,No Social Media (Control),Library,9
+132,Algorithm-Driven Feed,Market Square,5
+133,Algorithm-Driven Feed,Library,7
+134,Following Feed,Library,4
+135,No Social Media (Control),Library,6
+136,No Social Media (Control),Library,7
+137,Following Feed,Library,6
+138,No Social Media (Control),Library,10
+139,No Social Media (Control),Market Square,8
+140,Algorithm-Driven Feed,Market Square,6
+141,No Social Media (Control),Market Square,10
+142,No Social Media (Control),Library,8
+143,Following Feed,Library,4
+144,Following Feed,Library,7
+145,Algorithm-Driven Feed,Library,4
+146,No Social Media (Control),Market Square,7
+147,No Social Media (Control),Market Square,7
+148,No Social Media (Control),Library,6
+149,Algorithm-Driven Feed,Market Square,6
+150,Algorithm-Driven Feed,Market Square,6
+151,Following Feed,Library,0
+152,Algorithm-Driven Feed,Market Square,6
+153,No Social Media (Control),Library,6
+154,No Social Media (Control),Market Square,9
+155,Algorithm-Driven Feed,Library,4
+156,No Social Media (Control),Library,10
+157,No Social Media (Control),Library,9
+158,Algorithm-Driven Feed,Library,4
+159,Algorithm-Driven Feed,Market Square,8
+160,No Social Media (Control),Library,8
+161,No Social Media (Control),Library,7
+162,No Social Media (Control),Library,8
+163,Following Feed,Market Square,6
+164,Following Feed,Library,5
+165,Following Feed,Market Square,7
+166,Algorithm-Driven Feed,Library,8
+167,Following Feed,Market Square,6
+168,Algorithm-Driven Feed,Market Square,5
+169,Algorithm-Driven Feed,Library,2
+170,Following Feed,Market Square,9
+171,Following Feed,Library,5
+172,Following Feed,Library,6
+173,No Social Media (Control),Library,10
+174,Following Feed,Market Square,6
+175,No Social Media (Control),Market Square,8
+176,Algorithm-Driven Feed,Library,7
+177,No Social Media (Control),Library,8
+178,Following Feed,Market Square,7
+179,Algorithm-Driven Feed,Library,3
+180,Algorithm-Driven Feed,Library,7
+181,Algorithm-Driven Feed,Library,6
+182,No Social Media (Control),Market Square,6
+183,Following Feed,Market Square,7
+184,Algorithm-Driven Feed,Market Square,3
+185,Algorithm-Driven Feed,Library,9
+186,Algorithm-Driven Feed,Library,3
+187,No Social Media (Control),Library,9
+188,No Social Media (Control),Market Square,7
+189,Following Feed,Library,6
+190,No Social Media (Control),Library,6
+191,Algorithm-Driven Feed,Library,6
+192,Following Feed,Library,5
+193,Algorithm-Driven Feed,Market Square,7
+194,Algorithm-Driven Feed,Market Square,6
+195,No Social Media (Control),Library,5
+196,Following Feed,Market Square,7
+197,No Social Media (Control),Market Square,7
+198,No Social Media (Control),Library,9
+199,Following Feed,Library,5
+200,Algorithm-Driven Feed,Market Square,6
+201,Algorithm-Driven Feed,Library,8
+202,Following Feed,Market Square,10
+203,Algorithm-Driven Feed,Library,6
+204,Following Feed,Market Square,6
+205,Following Feed,Library,4
+206,No Social Media (Control),Market Square,7
+207,Following Feed,Market Square,5
+208,No Social Media (Control),Market Square,8
+209,Algorithm-Driven Feed,Library,8
+210,Algorithm-Driven Feed,Market Square,6
+211,Algorithm-Driven Feed,Market Square,4
+212,Algorithm-Driven Feed,Library,5
+213,No Social Media (Control),Library,7
+214,Algorithm-Driven Feed,Market Square,6
+215,Following Feed,Market Square,7
+216,Following Feed,Library,5
+217,Following Feed,Library,6
+218,No Social Media (Control),Library,6
+219,Algorithm-Driven Feed,Library,8
+220,Algorithm-Driven Feed,Library,5
+221,Algorithm-Driven Feed,Market Square,7
+222,No Social Media (Control),Library,6
+223,Following Feed,Market Square,7
+224,Following Feed,Market Square,7
+225,Algorithm-Driven Feed,Market Square,4
+226,Following Feed,Library,3
+227,Following Feed,Market Square,6
+228,No Social Media (Control),Market Square,7
+229,No Social Media (Control),Library,7
+230,No Social Media (Control),Market Square,6
+231,No Social Media (Control),Market Square,6
+232,Algorithm-Driven Feed,Library,5
+233,No Social Media (Control),Market Square,7
+234,Following Feed,Market Square,3
+235,Algorithm-Driven Feed,Market Square,8
+236,Following Feed,Library,3
+237,Following Feed,Library,9
+238,Following Feed,Library,4
+239,No Social Media (Control),Market Square,9
+240,No Social Media (Control),Market Square,10
+241,Algorithm-Driven Feed,Library,7
+242,Algorithm-Driven Feed,Market Square,9
+243,No Social Media (Control),Market Square,6
+244,Following Feed,Library,3
+245,Algorithm-Driven Feed,Library,5
+246,No Social Media (Control),Market Square,9
+247,No Social Media (Control),Market Square,8
+248,No Social Media (Control),Market Square,6
+249,Following Feed,Library,6
+250,No Social Media (Control),Library,7
+251,No Social Media (Control),Library,7
+252,No Social Media (Control),Library,4
+253,No Social Media (Control),Market Square,9
+254,Algorithm-Driven Feed,Library,5
+255,Algorithm-Driven Feed,Library,8
+256,No Social Media (Control),Library,7
+257,Following Feed,Library,6
+258,Algorithm-Driven Feed,Library,6
+259,No Social Media (Control),Market Square,5
+260,Algorithm-Driven Feed,Market Square,10
+261,Algorithm-Driven Feed,Library,4
+262,Following Feed,Market Square,7
+263,No Social Media (Control),Library,8
+264,No Social Media (Control),Library,6
+265,Following Feed,Market Square,9
+266,Following Feed,Market Square,6
+267,No Social Media (Control),Library,7
+268,No Social Media (Control),Library,7
+269,Following Feed,Library,6
+270,Algorithm-Driven Feed,Market Square,6
+271,Algorithm-Driven Feed,Library,6
+272,Following Feed,Library,2
+273,Algorithm-Driven Feed,Library,4
+274,Following Feed,Market Square,3
+275,Algorithm-Driven Feed,Library,8
+276,Algorithm-Driven Feed,Library,8
+277,No Social Media (Control),Market Square,9
+278,No Social Media (Control),Library,5
+279,Algorithm-Driven Feed,Library,9
+280,Algorithm-Driven Feed,Market Square,5
+281,No Social Media (Control),Library,7
+282,No Social Media (Control),Market Square,8
+283,No Social Media (Control),Market Square,9
+284,Following Feed,Library,6
+285,Algorithm-Driven Feed,Library,6
+286,No Social Media (Control),Library,7
+287,Algorithm-Driven Feed,Library,6
+288,Following Feed,Market Square,6
+289,Following Feed,Library,6
+290,No Social Media (Control),Market Square,9
+291,Following Feed,Library,6
+292,Algorithm-Driven Feed,Library,6
+293,No Social Media (Control),Library,6
+294,Algorithm-Driven Feed,Market Square,7
+295,Algorithm-Driven Feed,Library,6
+296,Following Feed,Library,3
+297,Following Feed,Library,5
+298,Following Feed,Library,6
+299,Following Feed,Market Square,9
+300,Following Feed,Library,6

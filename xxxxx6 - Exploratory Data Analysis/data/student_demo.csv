@@ -1,0 +1,1001 @@
+student_id,writing_ability,group_assignment,year
+1,80,AI No Training,4
+1,80,AI No Training,4
+2,73.6,AI No Training,4
+2,73.6,AI No Training,2
+3,81.5,AI No Training,1
+3,81.5,AI No Training,3
+4,90.2,AI Training,4
+4,90.2,AI Training,3
+5,72.7,AI No Training,2
+5,72.7,AI No Training,4
+6,72.7,No AI,4
+6,72.7,No AI,3
+7,90.8,No AI,1
+7,90.8,No AI,3
+8,82.7,No AI,4
+8,82.7,No AI,4
+9,70.3,No AI,2
+9,70.3,No AI,1
+10,80.4,No AI,4
+10,80.4,No AI,3
+11,70.4,No AI,3
+11,70.4,No AI,1
+12,70.3,No AI,2
+12,70.3,No AI,2
+13,77.4,No AI,3
+13,77.4,No AI,4
+14,55.9,AI Training,3
+14,55.9,AI Training,3
+15,57.8,No AI,2
+15,57.8,No AI,4
+16,69.4,AI No Training,2
+16,69.4,AI No Training,2
+17,64.9,AI No Training,2
+17,64.9,AI No Training,3
+18,78.1,AI Training,3
+18,78.1,AI Training,3
+19,65.9,No AI,2
+19,65.9,No AI,1
+20,60.9,AI No Training,3
+20,60.9,AI No Training,3
+21,89.7,AI Training,3
+21,89.7,AI Training,2
+22,72.7,AI Training,1
+22,72.7,AI Training,2
+23,75.7,AI Training,4
+23,75.7,AI Training,3
+24,60.8,No AI,4
+24,60.8,No AI,4
+25,69.6,No AI,3
+25,69.6,No AI,2
+26,76.1,AI Training,2
+26,76.1,AI Training,3
+27,63.5,AI Training,4
+27,63.5,AI Training,3
+28,78.8,AI No Training,3
+28,78.8,AI No Training,1
+29,69,AI No Training,1
+29,69,AI No Training,4
+30,72.1,No AI,4
+30,72.1,No AI,1
+31,69,AI Training,2
+31,69,AI Training,1
+32,93.5,No AI,3
+32,93.5,No AI,1
+33,74.9,No AI,3
+33,74.9,No AI,4
+34,64.4,AI No Training,2
+34,64.4,AI No Training,3
+35,83.2,AI No Training,4
+35,83.2,AI No Training,4
+36,62.8,No AI,3
+36,62.8,No AI,1
+37,77.1,No AI,3
+37,77.1,No AI,1
+38,55.4,AI No Training,3
+38,55.4,AI No Training,2
+39,61.7,No AI,3
+39,61.7,No AI,4
+40,77,AI No Training,3
+40,77,AI No Training,2
+41,82.4,No AI,4
+41,82.4,No AI,2
+42,76.7,AI No Training,4
+42,76.7,AI No Training,4
+43,73.8,AI No Training,2
+43,73.8,AI No Training,2
+44,72,No AI,4
+44,72,No AI,1
+45,60.2,AI No Training,3
+45,60.2,AI No Training,4
+46,67.8,No AI,3
+46,67.8,No AI,2
+47,70.4,No AI,1
+47,70.4,No AI,4
+48,85.6,AI Training,3
+48,85.6,AI Training,4
+49,78.4,No AI,2
+49,78.4,No AI,4
+50,57.4,AI Training,1
+50,57.4,AI Training,2
+51,78.2,No AI,1
+51,78.2,No AI,1
+52,71.1,AI Training,2
+52,71.1,AI Training,1
+53,68.2,AI Training,4
+53,68.2,AI Training,4
+54,81.1,AI No Training,3
+54,81.1,AI No Training,3
+55,85.3,AI No Training,2
+55,85.3,AI No Training,4
+56,84.3,AI No Training,4
+56,84.3,AI No Training,3
+57,66.6,AI No Training,2
+57,66.6,AI No Training,4
+58,71.9,AI Training,2
+58,71.9,AI Training,2
+59,78.3,AI Training,2
+59,78.3,AI Training,2
+60,84.8,AI Training,2
+60,84.8,AI Training,2
+61,70.2,No AI,2
+61,70.2,No AI,2
+62,73.1,AI Training,1
+62,73.1,AI Training,1
+63,63.9,AI Training,2
+63,63.9,AI Training,1
+64,63,No AI,3
+64,63,No AI,4
+65,83.1,No AI,2
+65,83.1,No AI,1
+66,88.6,AI Training,3
+66,88.6,AI Training,2
+67,74.3,AI No Training,2
+67,74.3,AI No Training,1
+68,85,AI Training,4
+68,85,AI Training,2
+69,78.6,No AI,1
+69,78.6,No AI,4
+70,68.5,AI Training,1
+70,68.5,AI Training,4
+71,78.6,No AI,1
+71,78.6,No AI,1
+72,90.4,No AI,2
+72,90.4,No AI,3
+73,74.6,No AI,2
+73,74.6,No AI,1
+74,90.6,AI Training,1
+74,90.6,AI Training,2
+75,50,AI No Training,3
+75,50,AI No Training,2
+76,83.2,AI No Training,4
+76,83.2,AI No Training,2
+77,75.9,AI No Training,2
+77,75.9,AI No Training,2
+78,72,AI Training,2
+78,72,AI Training,4
+79,75.9,AI No Training,2
+79,75.9,AI No Training,1
+80,55.1,AI Training,3
+80,55.1,AI Training,4
+81,72.8,AI No Training,3
+81,72.8,AI No Training,3
+82,78.6,AI No Training,4
+82,78.6,AI No Training,3
+83,89.8,AI No Training,1
+83,89.8,AI No Training,3
+84,69.8,No AI,1
+84,69.8,No AI,3
+85,66.9,AI Training,3
+85,66.9,AI Training,2
+86,70,AI No Training,4
+86,70,AI No Training,3
+87,84.2,No AI,1
+87,84.2,No AI,1
+88,78.3,AI Training,1
+88,78.3,AI Training,4
+89,69.7,AI No Training,4
+89,69.7,AI No Training,4
+90,80.1,AI No Training,4
+90,80.1,AI No Training,4
+91,76,AI Training,3
+91,76,AI Training,1
+92,84.7,AI No Training,1
+92,84.7,AI No Training,3
+93,68,No AI,1
+93,68,No AI,1
+94,71.7,AI Training,2
+94,71.7,AI Training,2
+95,71.1,AI No Training,1
+95,71.1,AI No Training,2
+96,60.4,AI No Training,3
+96,60.4,AI No Training,3
+97,78,No AI,1
+97,78,No AI,3
+98,77.6,AI Training,1
+98,77.6,AI Training,4
+99,75.1,AI No Training,3
+99,75.1,AI No Training,1
+100,72.7,AI No Training,2
+100,72.7,AI No Training,4
+101,60.8,AI Training,1
+101,60.8,AI Training,2
+102,70.8,AI Training,3
+102,70.8,AI Training,2
+103,71.6,No AI,3
+103,71.6,No AI,4
+104,67,No AI,4
+104,67,No AI,1
+105,73.4,No AI,1
+105,73.4,No AI,2
+106,79,AI Training,4
+106,79,AI Training,3
+107,93.9,No AI,4
+107,93.9,No AI,2
+108,76.7,AI No Training,2
+108,76.7,AI No Training,2
+109,77.6,AI Training,2
+109,77.6,AI Training,4
+110,74.3,AI Training,4
+110,74.3,AI Training,3
+111,55.8,AI No Training,3
+111,55.8,AI No Training,4
+112,74.7,AI Training,1
+112,74.7,AI Training,1
+113,75.6,No AI,4
+113,75.6,No AI,1
+114,99.6,AI Training,2
+114,99.6,AI Training,1
+115,73.1,No AI,1
+115,73.1,No AI,4
+116,78,AI No Training,4
+116,78,AI No Training,3
+117,74.7,AI Training,4
+117,74.7,AI Training,1
+118,63.3,No AI,1
+118,63.3,No AI,3
+119,86.4,No AI,1
+119,86.4,No AI,4
+120,82.5,AI Training,2
+120,82.5,AI Training,3
+121,82.9,AI Training,2
+121,82.9,AI Training,3
+122,65.9,AI No Training,2
+122,65.9,AI No Training,2
+123,89,AI Training,1
+123,89,AI Training,4
+124,61,AI No Training,2
+124,61,AI No Training,3
+125,80.9,No AI,3
+125,80.9,No AI,3
+126,96.9,AI No Training,1
+126,96.9,AI No Training,2
+127,65.1,No AI,4
+127,65.1,No AI,4
+128,69.3,AI Training,3
+128,69.3,AI Training,3
+129,76,AI No Training,1
+129,76,AI No Training,3
+130,70,AI No Training,4
+130,70,AI No Training,1
+131,59.5,AI No Training,4
+131,59.5,AI No Training,2
+132,75.7,AI Training,4
+132,75.7,AI Training,3
+133,64.4,No AI,2
+133,64.4,No AI,3
+134,79.7,AI No Training,3
+134,79.7,AI No Training,4
+135,65.8,AI No Training,1
+135,65.8,AI No Training,2
+136,90.5,AI No Training,3
+136,90.5,AI No Training,3
+137,67.2,No AI,3
+137,67.2,No AI,1
+138,71.8,AI Training,1
+138,71.8,AI Training,1
+139,83.1,AI Training,2
+139,83.1,AI Training,2
+140,62.7,AI No Training,3
+140,62.7,AI No Training,1
+141,77.3,AI Training,1
+141,77.3,AI Training,3
+142,88.1,AI Training,1
+142,88.1,AI Training,2
+143,58.9,AI Training,1
+143,58.9,AI Training,1
+144,76.8,No AI,2
+144,76.8,No AI,3
+145,77.6,AI No Training,3
+145,77.6,AI No Training,4
+146,82.8,AI No Training,4
+146,82.8,AI No Training,2
+147,62.6,AI No Training,2
+147,62.6,AI No Training,3
+148,61.8,AI Training,4
+148,61.8,AI Training,3
+149,80.2,AI Training,3
+149,80.2,AI Training,2
+150,78,AI Training,1
+150,78,AI Training,2
+151,77.5,AI No Training,3
+151,77.5,AI No Training,4
+152,78.5,No AI,3
+152,78.5,No AI,1
+153,68.2,AI Training,1
+153,68.2,AI Training,3
+154,77.3,AI Training,1
+154,77.3,AI Training,4
+155,77.9,No AI,2
+155,77.9,No AI,4
+156,67.9,AI Training,2
+156,67.9,AI Training,3
+157,93.7,AI Training,2
+157,93.7,AI Training,3
+158,79.7,AI No Training,3
+158,79.7,AI No Training,2
+159,63.1,AI No Training,3
+159,63.1,AI No Training,3
+160,81.6,AI No Training,4
+160,81.6,AI No Training,1
+161,65.3,No AI,4
+161,65.3,No AI,2
+162,82.9,AI No Training,3
+162,82.9,AI No Training,1
+163,86.6,AI Training,2
+163,86.6,AI Training,3
+164,66.8,No AI,1
+164,66.8,No AI,4
+165,84.6,AI No Training,2
+165,84.6,AI No Training,4
+166,79.1,AI No Training,4
+166,79.1,AI No Training,3
+167,83.2,AI No Training,1
+167,83.2,AI No Training,1
+168,94,AI Training,1
+168,94,AI Training,4
+169,72.5,AI No Training,2
+169,72.5,AI No Training,1
+170,67.5,AI No Training,1
+170,67.5,AI No Training,4
+171,66.1,AI Training,1
+171,66.1,AI Training,1
+172,66.8,AI No Training,1
+172,66.8,AI No Training,2
+173,74.2,No AI,4
+173,74.2,No AI,3
+174,78.4,AI No Training,2
+174,78.4,AI No Training,1
+175,77.8,No AI,3
+175,77.8,No AI,4
+176,83.3,No AI,4
+176,83.3,No AI,1
+177,75.1,AI No Training,2
+177,75.1,AI No Training,2
+178,89.5,AI No Training,4
+178,89.5,AI No Training,4
+179,72.4,AI Training,3
+179,72.4,AI Training,2
+180,100,AI No Training,3
+180,100,AI No Training,2
+181,81.3,AI No Training,2
+181,81.3,AI No Training,4
+182,66.4,AI No Training,1
+182,66.4,AI No Training,2
+183,64.3,No AI,3
+183,64.3,No AI,1
+184,79.8,AI No Training,2
+184,79.8,AI No Training,2
+185,72.8,No AI,1
+185,72.8,No AI,2
+186,82.1,AI Training,2
+186,82.1,AI Training,1
+187,79.7,No AI,3
+187,79.7,No AI,3
+188,74.3,AI No Training,3
+188,74.3,AI No Training,4
+189,66.5,No AI,3
+189,66.5,No AI,1
+190,59.9,AI Training,4
+190,59.9,AI Training,4
+191,70.5,AI No Training,2
+191,70.5,AI No Training,1
+192,83.6,AI No Training,3
+192,83.6,AI No Training,4
+193,77.1,No AI,3
+193,77.1,No AI,4
+194,62.5,AI Training,1
+194,62.5,AI Training,4
+195,76.7,No AI,3
+195,76.7,No AI,4
+196,78.9,AI Training,2
+196,78.9,AI Training,3
+197,66.2,No AI,3
+197,66.2,No AI,2
+198,76.5,No AI,2
+198,76.5,No AI,1
+199,75.6,No AI,2
+199,75.6,No AI,3
+200,63.6,AI No Training,2
+200,63.6,AI No Training,2
+201,78.6,AI No Training,2
+201,78.6,AI No Training,4
+202,80.6,No AI,1
+202,80.6,No AI,4
+203,85.8,AI Training,1
+203,85.8,AI Training,1
+204,85.5,AI No Training,2
+204,85.5,AI No Training,3
+205,61.2,AI No Training,1
+205,61.2,AI No Training,4
+206,65.6,AI No Training,1
+206,65.6,AI No Training,4
+207,80.2,AI No Training,1
+207,80.2,AI No Training,2
+208,80.1,AI No Training,3
+208,80.1,AI No Training,4
+209,80.2,No AI,1
+209,80.2,No AI,4
+210,100,No AI,3
+210,100,No AI,2
+211,80.7,AI Training,2
+211,80.7,AI Training,1
+212,86.4,AI Training,3
+212,86.4,AI Training,2
+213,84.5,AI No Training,4
+213,84.5,AI No Training,3
+214,81.5,No AI,3
+214,81.5,No AI,1
+215,71.8,AI No Training,1
+215,71.8,AI No Training,2
+216,82.6,AI No Training,3
+216,82.6,AI No Training,3
+217,67.3,No AI,2
+217,67.3,No AI,4
+218,72.6,No AI,1
+218,72.6,No AI,4
+219,70.1,AI Training,3
+219,70.1,AI Training,4
+220,75.8,AI No Training,3
+220,75.8,AI No Training,3
+221,98.1,No AI,2
+221,98.1,No AI,4
+222,56.3,No AI,3
+222,56.3,No AI,3
+223,81.9,No AI,2
+223,81.9,No AI,3
+224,58.9,AI Training,2
+224,58.9,AI Training,1
+225,70.3,No AI,3
+225,70.3,No AI,3
+226,85.9,No AI,1
+226,85.9,No AI,4
+227,75.6,AI Training,2
+227,75.6,AI Training,1
+228,64.2,No AI,3
+228,64.2,No AI,2
+229,67.8,AI No Training,4
+229,67.8,AI No Training,1
+230,81.8,No AI,2
+230,81.8,No AI,3
+231,67.7,No AI,4
+231,67.7,No AI,3
+232,77.2,No AI,2
+232,77.2,No AI,1
+233,75.5,AI Training,2
+233,75.5,AI Training,1
+234,68.5,AI Training,1
+234,68.5,AI Training,3
+235,96.4,AI Training,3
+235,96.4,AI Training,3
+236,81.3,AI No Training,1
+236,81.3,AI No Training,1
+237,54.7,AI Training,4
+237,54.7,AI Training,2
+238,76.9,No AI,1
+238,76.9,No AI,3
+239,68.4,No AI,2
+239,68.4,No AI,1
+240,83.5,AI Training,1
+240,83.5,AI Training,3
+241,67.1,No AI,1
+241,67.1,No AI,3
+242,73.9,No AI,4
+242,73.9,No AI,3
+243,80,No AI,2
+243,80,No AI,3
+244,83.7,No AI,2
+244,83.7,No AI,1
+245,63,No AI,1
+245,63,No AI,3
+246,71.7,AI No Training,2
+246,71.7,AI No Training,4
+247,70.3,AI No Training,3
+247,70.3,AI No Training,4
+248,68.5,AI Training,2
+248,68.5,AI Training,3
+249,92.7,AI Training,1
+249,92.7,AI Training,4
+250,79,AI No Training,1
+250,79,AI No Training,2
+251,62.4,No AI,3
+251,62.4,No AI,1
+252,84.2,AI No Training,3
+252,84.2,AI No Training,1
+253,96.2,AI No Training,2
+253,96.2,AI No Training,2
+254,85.3,No AI,2
+254,85.3,No AI,3
+255,59.8,AI No Training,1
+255,59.8,AI No Training,4
+256,70.2,AI No Training,1
+256,70.2,AI No Training,3
+257,87.7,AI No Training,2
+257,87.7,AI No Training,4
+258,67.9,AI No Training,1
+258,67.9,AI No Training,4
+259,79.4,No AI,1
+259,79.4,No AI,4
+260,82.7,AI Training,2
+260,82.7,AI Training,2
+261,65.7,AI Training,1
+261,65.7,AI Training,2
+262,74.4,No AI,4
+262,74.4,No AI,2
+263,50,AI Training,1
+263,50,AI Training,3
+264,64.8,AI No Training,4
+264,64.8,AI No Training,1
+265,72.5,AI Training,2
+265,72.5,AI Training,4
+266,62.5,AI Training,1
+266,62.5,AI Training,2
+267,91.3,AI No Training,4
+267,91.3,AI No Training,2
+268,60.7,No AI,3
+268,60.7,No AI,2
+269,70.6,No AI,1
+269,70.6,No AI,2
+270,76.3,AI No Training,2
+270,76.3,AI No Training,2
+271,89.4,AI No Training,1
+271,89.4,AI No Training,1
+272,60.6,No AI,2
+272,60.6,No AI,2
+273,86.6,No AI,3
+273,86.6,No AI,2
+274,75.1,AI Training,1
+274,75.1,AI Training,1
+275,65.2,AI Training,1
+275,65.2,AI Training,4
+276,79.6,AI No Training,4
+276,79.6,AI No Training,4
+277,77,No AI,3
+277,77,No AI,1
+278,69,No AI,3
+278,69,No AI,4
+279,75.7,No AI,1
+279,75.7,No AI,2
+280,71.1,AI Training,4
+280,71.1,AI Training,1
+281,76.1,No AI,4
+281,76.1,No AI,2
+282,81.6,AI No Training,4
+282,81.6,AI No Training,4
+283,90.9,No AI,1
+283,90.9,No AI,1
+284,62.6,AI No Training,4
+284,62.6,AI No Training,1
+285,96.3,AI No Training,3
+285,96.3,AI No Training,4
+286,55.5,AI Training,2
+286,55.5,AI Training,4
+287,73.5,No AI,1
+287,73.5,No AI,1
+288,80.9,No AI,2
+288,80.9,No AI,1
+289,77.8,No AI,2
+289,77.8,No AI,3
+290,68.8,AI Training,4
+290,68.8,AI Training,3
+291,72.9,AI Training,1
+291,72.9,AI Training,3
+292,70.1,AI No Training,4
+292,70.1,AI No Training,1
+293,69.1,AI No Training,1
+293,69.1,AI No Training,1
+294,83.5,AI No Training,3
+294,83.5,AI No Training,2
+295,78.6,No AI,4
+295,78.6,No AI,1
+296,68.1,AI Training,2
+296,68.1,AI Training,4
+297,84,AI No Training,4
+297,84,AI No Training,4
+298,78.1,AI No Training,1
+298,78.1,AI No Training,2
+299,83.1,AI No Training,3
+299,83.1,AI No Training,4
+300,81.3,No AI,3
+300,81.3,No AI,3
+301,66.7,No AI,4
+301,66.7,No AI,1
+302,69.4,AI Training,2
+302,69.4,AI Training,1
+303,82.5,No AI,2
+303,82.5,No AI,4
+304,81.1,AI No Training,2
+304,81.1,AI No Training,3
+305,74.8,No AI,2
+305,74.8,No AI,1
+306,76.2,AI No Training,2
+306,76.2,AI No Training,2
+307,87.8,No AI,3
+307,87.8,No AI,1
+308,69.1,AI No Training,2
+308,69.1,AI No Training,2
+309,80.5,AI Training,1
+309,80.5,AI Training,3
+310,73,No AI,1
+310,73,No AI,4
+311,72.8,AI No Training,4
+311,72.8,AI No Training,4
+312,86,AI No Training,4
+312,86,AI No Training,2
+313,83.3,AI No Training,2
+313,83.3,AI No Training,4
+314,83.1,AI Training,4
+314,83.1,AI Training,4
+315,88.1,AI Training,4
+315,88.1,AI Training,3
+316,75.2,No AI,1
+316,75.2,No AI,1
+317,81.8,No AI,4
+317,81.8,No AI,3
+318,71.9,No AI,3
+318,71.9,No AI,4
+319,78.2,AI No Training,4
+319,78.2,AI No Training,2
+320,73.7,No AI,1
+320,73.7,No AI,2
+321,76,AI No Training,2
+321,76,AI No Training,2
+322,81,AI No Training,3
+322,81,AI No Training,1
+323,66.8,AI No Training,3
+323,66.8,AI No Training,1
+324,95.9,AI Training,1
+324,95.9,AI Training,1
+325,64.9,No AI,2
+325,64.9,No AI,1
+326,62.9,No AI,3
+326,62.9,No AI,2
+327,86.6,AI Training,1
+327,86.6,AI Training,1
+328,82.9,AI No Training,4
+328,82.9,AI No Training,2
+329,81.2,AI Training,3
+329,81.2,AI Training,2
+330,81.3,AI No Training,3
+330,81.3,AI No Training,3
+331,74.9,No AI,2
+331,74.9,No AI,1
+332,66,AI Training,1
+332,66,AI Training,3
+333,75.8,AI Training,4
+333,75.8,AI Training,1
+334,68.2,AI Training,4
+334,68.2,AI Training,2
+335,84.8,No AI,3
+335,84.8,No AI,1
+336,73.5,AI No Training,2
+336,73.5,AI No Training,4
+337,66.7,AI No Training,2
+337,66.7,AI No Training,4
+338,71.8,No AI,4
+338,71.8,No AI,2
+339,79.1,AI Training,1
+339,79.1,AI Training,3
+340,69.4,No AI,2
+340,69.4,No AI,3
+341,66.8,AI Training,4
+341,66.8,AI Training,1
+342,77.4,AI No Training,1
+342,77.4,AI No Training,2
+343,77.4,No AI,4
+343,77.4,No AI,2
+344,69.9,AI No Training,3
+344,69.9,AI No Training,1
+345,70.3,AI Training,4
+345,70.3,AI Training,4
+346,77.3,AI Training,4
+346,77.3,AI Training,2
+347,60.5,AI Training,1
+347,60.5,AI Training,3
+348,60.9,AI No Training,4
+348,60.9,AI No Training,3
+349,67.8,AI Training,4
+349,67.8,AI Training,3
+350,72.9,AI Training,4
+350,72.9,AI Training,1
+351,78.1,No AI,2
+351,78.1,No AI,1
+352,89.8,AI No Training,4
+352,89.8,AI No Training,2
+353,83.6,No AI,3
+353,83.6,No AI,2
+354,73.4,AI Training,4
+354,73.4,AI Training,2
+355,74.8,AI Training,3
+355,74.8,AI Training,1
+356,65,No AI,4
+356,65,No AI,3
+357,74.8,AI Training,2
+357,74.8,AI Training,4
+358,72.1,AI Training,2
+358,72.1,AI Training,2
+359,78.2,No AI,1
+359,78.2,No AI,1
+360,66.7,AI No Training,3
+360,66.7,AI No Training,3
+361,80.2,AI Training,2
+361,80.2,AI Training,2
+362,90.3,No AI,3
+362,90.3,No AI,4
+363,73.9,AI Training,3
+363,73.9,AI Training,2
+364,79,No AI,2
+364,79,No AI,2
+365,81.9,AI Training,4
+365,81.9,AI Training,2
+366,71,AI Training,1
+366,71,AI Training,4
+367,77.2,AI Training,4
+367,77.2,AI Training,2
+368,75.1,AI No Training,3
+368,75.1,AI No Training,2
+369,76,AI Training,1
+369,76,AI Training,2
+370,67.3,AI Training,4
+370,67.3,AI Training,4
+371,75.2,No AI,2
+371,75.2,No AI,3
+372,80,AI Training,1
+372,80,AI Training,4
+373,89.5,No AI,4
+373,89.5,No AI,1
+374,84.6,AI No Training,2
+374,84.6,AI No Training,2
+375,96.5,No AI,4
+375,96.5,No AI,3
+376,67.3,No AI,4
+376,67.3,No AI,2
+377,83.7,No AI,4
+377,83.7,No AI,1
+378,76.8,AI Training,4
+378,76.8,AI Training,2
+379,96.9,AI No Training,2
+379,96.9,AI No Training,1
+380,66.9,AI Training,4
+380,66.9,AI Training,1
+381,66.6,No AI,4
+381,66.6,No AI,4
+382,69,No AI,4
+382,69,No AI,2
+383,53.8,AI No Training,1
+383,53.8,AI No Training,4
+384,69.7,AI Training,1
+384,69.7,AI Training,3
+385,67.4,No AI,2
+385,67.4,No AI,1
+386,76.5,AI No Training,4
+386,76.5,AI No Training,4
+387,78.4,AI Training,4
+387,78.4,AI Training,4
+388,93.8,AI No Training,2
+388,93.8,AI No Training,4
+389,84.5,No AI,4
+389,84.5,No AI,1
+390,69.2,No AI,1
+390,69.2,No AI,2
+391,66,AI Training,1
+391,66,AI Training,3
+392,79.9,No AI,4
+392,79.9,No AI,3
+393,61.8,AI Training,4
+393,61.8,AI Training,4
+394,93.3,AI No Training,1
+394,93.3,AI No Training,3
+395,86.8,AI Training,3
+395,86.8,AI Training,1
+396,70.3,AI Training,4
+396,70.3,AI Training,4
+397,57.9,AI Training,4
+397,57.9,AI Training,4
+398,88.5,AI No Training,2
+398,88.5,AI No Training,1
+399,73.9,AI Training,4
+399,73.9,AI Training,1
+400,87.4,AI No Training,3
+400,87.4,AI No Training,2
+401,59.1,AI No Training,3
+401,59.1,AI No Training,2
+402,69,AI No Training,3
+402,69,AI No Training,4
+403,75.1,AI Training,3
+403,75.1,AI Training,4
+404,75.5,AI Training,2
+404,75.5,AI Training,1
+405,70.5,AI Training,4
+405,70.5,AI Training,3
+406,81.2,AI No Training,4
+406,81.2,AI No Training,1
+407,64.3,AI No Training,2
+407,64.3,AI No Training,1
+408,73.6,AI Training,4
+408,73.6,AI Training,1
+409,76.2,No AI,4
+409,76.2,No AI,4
+410,80.1,No AI,1
+410,80.1,No AI,1
+411,82.1,AI No Training,2
+411,82.1,AI No Training,2
+412,63.8,No AI,1
+412,63.8,No AI,4
+413,59.7,No AI,1
+413,59.7,No AI,3
+414,87.8,No AI,4
+414,87.8,No AI,2
+415,78.3,No AI,3
+415,78.3,No AI,1
+416,67.5,No AI,4
+416,67.5,No AI,1
+417,90.5,AI Training,3
+417,90.5,AI Training,4
+418,76.2,AI No Training,4
+418,76.2,AI No Training,3
+419,86.8,AI No Training,3
+419,86.8,AI No Training,2
+420,75.7,AI Training,1
+420,75.7,AI Training,3
+421,95.6,No AI,3
+421,95.6,No AI,1
+422,92.6,AI Training,4
+422,92.6,AI Training,1
+423,72.5,AI Training,1
+423,72.5,AI Training,1
+424,84.7,No AI,1
+424,84.7,No AI,4
+425,81.5,AI No Training,1
+425,81.5,AI No Training,3
+426,88.7,AI Training,4
+426,88.7,AI Training,1
+427,65.4,AI Training,2
+427,65.4,AI Training,2
+428,81.9,AI No Training,2
+428,81.9,AI No Training,3
+429,85.6,AI No Training,4
+429,85.6,AI No Training,2
+430,57.4,No AI,2
+430,57.4,No AI,3
+431,63.2,AI Training,4
+431,63.2,AI Training,3
+432,54.6,No AI,2
+432,54.6,No AI,1
+433,72.3,AI Training,2
+433,72.3,AI Training,2
+434,82.2,AI No Training,4
+434,82.2,AI No Training,2
+435,90,AI No Training,2
+435,90,AI No Training,1
+436,75.7,AI No Training,4
+436,75.7,AI No Training,1
+437,91.3,No AI,3
+437,91.3,No AI,1
+438,61.2,No AI,1
+438,61.2,No AI,1
+439,58,No AI,4
+439,58,No AI,3
+440,74.4,No AI,1
+440,74.4,No AI,1
+441,78.8,AI Training,2
+441,78.8,AI Training,1
+442,74.7,AI No Training,3
+442,74.7,AI No Training,3
+443,54.3,No AI,3
+443,54.3,No AI,4
+444,74.1,AI Training,4
+444,74.1,AI Training,1
+445,62,AI Training,4
+445,62,AI Training,3
+446,81.7,AI Training,3
+446,81.7,AI Training,2
+447,78.7,AI Training,4
+447,78.7,AI Training,4
+448,65.6,No AI,1
+448,65.6,No AI,1
+449,69.9,AI No Training,1
+449,69.9,AI No Training,3
+450,64.4,AI Training,3
+450,64.4,AI Training,3
+451,74.4,AI Training,2
+451,74.4,AI Training,2
+452,84.6,No AI,1
+452,84.6,No AI,3
+453,65.1,AI Training,2
+453,65.1,AI Training,4
+454,80,No AI,2
+454,80,No AI,1
+455,69.7,No AI,1
+455,69.7,No AI,3
+456,67.1,AI No Training,3
+456,67.1,AI No Training,2
+457,73.9,AI No Training,4
+457,73.9,AI No Training,4
+458,64.6,AI No Training,2
+458,64.6,AI No Training,1
+459,69.5,No AI,1
+459,69.5,No AI,1
+460,63,AI Training,4
+460,63,AI Training,4
+461,94.6,No AI,2
+461,94.6,No AI,1
+462,75.4,No AI,3
+462,75.4,No AI,3
+463,68,AI Training,2
+463,68,AI Training,3
+464,77.1,AI Training,4
+464,77.1,AI Training,4
+465,73.9,AI Training,2
+465,73.9,AI Training,4
+466,72.8,AI Training,3
+466,72.8,AI Training,2
+467,81.1,AI No Training,3
+467,81.1,AI No Training,4
+468,82.6,AI No Training,3
+468,82.6,AI No Training,2
+469,69.7,No AI,3
+469,69.7,No AI,2
+470,69.2,AI No Training,3
+470,69.2,AI No Training,3
+471,72.2,AI No Training,1
+471,72.2,AI No Training,3
+472,52,No AI,4
+472,52,No AI,1
+473,59.8,AI Training,2
+473,59.8,AI Training,1
+474,88.7,AI No Training,1
+474,88.7,AI No Training,2
+475,91.4,No AI,1
+475,91.4,No AI,4
+476,72.5,No AI,3
+476,72.5,No AI,1
+477,80.8,AI Training,3
+477,80.8,AI Training,3
+478,78.1,No AI,4
+478,78.1,No AI,4
+479,100,AI Training,3
+479,100,AI Training,3
+480,86.2,AI No Training,4
+480,86.2,AI No Training,4
+481,73.7,AI No Training,1
+481,73.7,AI No Training,2
+482,65.4,AI No Training,4
+482,65.4,AI No Training,2
+483,58.9,AI Training,2
+483,58.9,AI Training,4
+484,77,AI No Training,1
+484,77,AI No Training,4
+485,67.4,AI Training,2
+485,67.4,AI Training,1
+486,60.8,AI No Training,2
+486,60.8,AI No Training,4
+487,68.5,No AI,2
+487,68.5,No AI,2
+488,64.2,AI Training,1
+488,64.2,AI Training,4
+489,91.9,AI Training,3
+489,91.9,AI Training,2
+490,83.8,AI No Training,3
+490,83.8,AI No Training,4
+491,74.9,AI Training,1
+491,74.9,AI Training,3
+492,89.8,AI Training,3
+492,89.8,AI Training,4
+493,75.8,AI Training,2
+493,75.8,AI Training,2
+494,66.4,AI Training,1
+494,66.4,AI Training,2
+495,90.2,AI Training,1
+495,90.2,AI Training,3
+496,80.4,AI Training,3
+496,80.4,AI Training,2
+497,64.6,AI No Training,3
+497,64.6,AI No Training,4
+498,73.1,AI Training,2
+498,73.1,AI Training,3
+499,66.2,No AI,2
+499,66.2,No AI,2
+500,61.2,AI Training,2
+500,61.2,AI Training,4
